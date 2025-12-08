@@ -1,22 +1,60 @@
-# Ignore everything by default
+############################################
+# GLOBAL DEFAULT — IGNORE EVERYTHING
+############################################
 *
 
-# Allow only the folders we actually want to track
+############################################
+# UNIGNORE ONLY THE DIRECTORIES WE WANT
+############################################
 !DATA_CLEANING_SCRIPTS/
 !DATA_PULL_SCRIPTS/
 !DATA/
-!DATA/GITHUB_PUSH/
 
-# Allow gitignore itself
+# Allow all files inside those allowed directories
+!DATA_CLEANING_SCRIPTS/**
+!DATA_PULL_SCRIPTS/**
+!DATA/**
+
+############################################
+# ALLOW .gitignore ITSELF
+############################################
 !.gitignore
 
-# Ignore R / Positron noise
+
+############################################
+# IGNORE PYTHON VIRTUAL ENVIRONMENTS
+############################################
+# Entire Python_setup folder except files you explicitly unignore later
+DATA_PULL_SCRIPTS/Python_setup/
+DATA_PULL_SCRIPTS/Python_setup/**
+
+# If "Scripts" is also auto-generated (Windows venv)
+DATA_PULL_SCRIPTS/Scripts/
+DATA_PULL_SCRIPTS/Scripts/**
+
+
+############################################
+# IGNORE DEVELOPMENT/BUILD ARTIFACTS
+############################################
+DATA_CLEANING_SCRIPTS/ARCHIVE/
+DATA_CLEANING_SCRIPTS/.posit/
+DATA_CLEANING_SCRIPTS/__pycache__/
+DATA_PULL_SCRIPTS/__pycache__/
+__pycache__/
+
+
+############################################
+# IGNORE RStudio / Posit NOISE
+############################################
 .Rhistory
 .RData
 .Rproj.user/
 *.Rproj
 
-# Ignore OS junk
+
+############################################
+# IGNORE OS JUNK
+############################################
 Thumbs.db
 desktop.ini
 .DS_Store
