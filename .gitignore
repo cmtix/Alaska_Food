@@ -1,15 +1,16 @@
 # Ignore everything by default
 *
 
-# Allow only these folders to be tracked
+# Allow only the folders we actually want to track
 !DATA_CLEANING_SCRIPTS/
 !DATA_PULL_SCRIPTS/
 !DATA/
+!DATA/GITHUB_PUSH/
 
-# Allow this file itself
+# Allow gitignore itself
 !.gitignore
 
-# Ignore R/Positron noise
+# Ignore R / Positron noise
 .Rhistory
 .RData
 .Rproj.user/
@@ -19,4 +20,3 @@
 Thumbs.db
 desktop.ini
 .DS_Store
-
