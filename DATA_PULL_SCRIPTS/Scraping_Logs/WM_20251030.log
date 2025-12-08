@@ -1,0 +1,11 @@
+[2025-10-30 06:15:04] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-30 06:15:04] ERROR:  NameError: name 'SESSION' is not defined
+Run `reticulate::py_last_error()` for details.
+[2025-10-30 06:15:04]   py$type:   NameError
+[2025-10-30 06:15:04]   py$value:  name 'SESSION' is not defined
+[2025-10-30 06:15:04] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 37, in <module>
+    SESSION.headers.update({"Authorization": f"Bearer {API_KEY}"})
+    ^^^^^^^
+
+

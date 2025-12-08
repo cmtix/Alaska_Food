@@ -1,0 +1,44 @@
+[2025-10-27 00:02:49] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py
+[2025-10-27 01:33:26] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-27 01:33:26]   py$type:   SystemExit
+[2025-10-27 01:33:26]   py$value:  1
+[2025-10-27 01:33:26] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 383, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 380, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 359, in run_pipeline
+    poll_until_ready(snapshot_id, max_wait_minutes=90)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 188, in poll_until_ready
+    die("Timeout: snapshot did not become ready within the polling window.")
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 50, in die
+    sys.exit(1)
+
+
+[2025-10-27 06:40:53] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py
+[2025-10-27 08:11:09] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-27 08:11:09]   py$type:   SystemExit
+[2025-10-27 08:11:09]   py$value:  1
+[2025-10-27 08:11:09] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 383, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 380, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 359, in run_pipeline
+    poll_until_ready(snapshot_id, max_wait_minutes=90)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 188, in poll_until_ready
+    die("Timeout: snapshot did not become ready within the polling window.")
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 50, in die
+    sys.exit(1)
+
+

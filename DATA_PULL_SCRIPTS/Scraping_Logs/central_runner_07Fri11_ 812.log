@@ -1,0 +1,42 @@
+[INFO] Starting Food Pricing pipeline Fri 11/07/2025  8:12:00.62 
+[INFO] R: "C:\Users\vlcollier\AppData\Local\Programs\R\R-4.4.1\bin\Rscript.exe" 
+[INFO] Runner: "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup\central_food_pull.R" 
+[INFO] Logs: "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs" 
+[DEBUG] WM wait=360m poll=120s 
+ 
+Warning messages:
+1: package 'reticulate' was built under R version 4.4.2 
+2: package 'fs' was built under R version 4.4.2 
+3: package 'glue' was built under R version 4.4.2 
+python:         C:/Users/vlcollier/.venvs/FP_env/Scripts/python.exe
+libpython:      C:/Users/vlcollier/AppData/Local/r-reticulate/r-reticulate/pyenv/pyenv-win/versions/3.12.7/python312.dll
+pythonhome:     C:/Users/vlcollier/.venvs/FP_env
+version:        3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]
+Architecture:   64bit
+numpy:          C:/Users/vlcollier/.venvs/FP_env/Lib/site-packages/numpy
+numpy_version:  2.1.3
+
+NOTE: Python version was forced by use_python() function
+LOG_DIR (R) => G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs
+FM log path => G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs/FM_20251107.log
+Resolved scripts:
+  ACC: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/ACC/ACC_PULL36.py
+  CS : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/CS/BrightData/Carrs8-BrightData.py
+  FM : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM9_vc.py
+  WM : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Snapshot_only5.py
+WM env: BRIGHTDATA_API_KEY=fb96b4…
+  |                                                                              |                                                                      |   0%
+──── Food Pull: 1 job(s) ─────────────────
+(1/1) WM — starting
+[2025-11-07 08:12:02] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Snapshot_only5.py
+[OK] Wrote JSON + CSV to:
+  G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW\11_25\Walmart_25_11_v.2.json
+  G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\UAV Rural Essential Goods Delivery\FOOD_PRICING\Data_Scraping\Walmart\11_25\Walmart_25_11_v.3.json
+[2025-11-07 08:12:09] SUCCESS.
+   ✔ WM — 7.4s
+  |                                                                              |======================================================================| 100%
+
+All pulls completed successfully.
+ 
+[SUMMARY] Walmart run: SUCCESS (wait=360m, poll=120s) 
+[INFO] Finished with exit code 0 at Fri 11/07/2025  8:12:09.86 

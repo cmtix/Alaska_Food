@@ -1,0 +1,41 @@
+
+Warning messages:
+1: package 'reticulate' was built under R version 4.4.2 
+2: package 'fs' was built under R version 4.4.2 
+3: package 'glue' was built under R version 4.4.2 
+python:         C:/Users/vlcollier/.venvs/FP_env/Scripts/python.exe
+libpython:      C:/Users/vlcollier/AppData/Local/r-reticulate/r-reticulate/pyenv/pyenv-win/versions/3.12.7/python312.dll
+pythonhome:     C:/Users/vlcollier/.venvs/FP_env
+version:        3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]
+Architecture:   64bit
+numpy:          C:/Users/vlcollier/.venvs/FP_env/Lib/site-packages/numpy
+numpy_version:  2.1.3
+
+NOTE: Python version was forced by use_python() function
+LOG_DIR (R) => G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs
+FM log path => G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs/FM_20251029.log
+Resolved scripts:
+  ACC: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/ACC/ACC_PULL36.py
+  CS : NA
+  FM : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM8_vc.py
+  WM : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py
+  |                                                                              |                                                                      |   0%
+──── Food Pull: 2 job(s) ─────────────────
+(1/2) FM — starting
+[2025-10-29 06:15:03] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM8_vc.py
+Results saved to G:/.shortcut-targets-by-id/13TRPt8_RZFrfmQt9TVmdpJNyl7kRtluH/Data_Scraping/FredMeyer/FM_2025_10\FM_2025_10.json
+[2025-10-29 06:40:53] SUCCESS.
+   ✔ FM — 25m 49s
+  |                                                                              |===================================                                   |  50%(2/2) WM — starting
+[2025-10-29 06:40:53] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py
+[2025-10-29 06:41:23] ERROR:  requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new&discover_by=keyword
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 06:41:23]   py$type:   HTTPError
+[2025-10-29 06:41:23]   py$value:  500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new&discover_by=keyword
+See log for full Python traceback: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs/WM_20251029.log
+   ✖ WM — 30.8s
+  |                                                                              |======================================================================| 100%
+Error: 
+One or more pulls failed. Check logs in: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs
+Execution halted
+

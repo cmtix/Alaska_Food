@@ -1,0 +1,14 @@
+[2025-10-30 06:15:03] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM9_vc.py
+[2025-10-30 06:15:04] ERROR:  RuntimeError: Token HTTP 401; ct=application/json; charset=utf-8; peek='{"error":"unauthorized","error_description":"invalid credentials"}'
+Run `reticulate::py_last_error()` for details.
+[2025-10-30 06:15:04]   py$type:   RuntimeError
+[2025-10-30 06:15:04]   py$value:  Token HTTP 401; ct=application/json; charset=utf-8; peek='{"error":"unauthorized","error_description":"invalid credentials"}'
+[2025-10-30 06:15:04] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM9_vc.py", line 252, in <module>
+    token = get_token()
+            ^^^^^^^^^^^
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM9_vc.py", line 40, in get_token
+    raise RuntimeError(f"Token HTTP {r.status_code}; ct={ct}; peek={r.text[:200]!r}")
+
+

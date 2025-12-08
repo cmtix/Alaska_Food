@@ -1,0 +1,152 @@
+[2025-10-29 06:40:53] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py
+[2025-10-29 06:41:23] ERROR:  requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new&discover_by=keyword
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 06:41:23]   py$type:   HTTPError
+[2025-10-29 06:41:23]   py$value:  500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new&discover_by=keyword
+[2025-10-29 06:41:23] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 383, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 380, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 352, in run_pipeline
+    snapshot_id = trigger_snapshot()
+                  ^^^^^^^^^^^^^^^^^^
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 126, in trigger_snapshot
+    r.raise_for_status()
+
+  File "C:\Users\VLCOLL~1\VENVS~1\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+
+
+[2025-10-29 19:57:56] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py
+[2025-10-29 19:58:27] ERROR:  requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new&discover_by=keyword
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 19:58:27]   py$type:   HTTPError
+[2025-10-29 19:58:27]   py$value:  500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new&discover_by=keyword
+[2025-10-29 19:58:27] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 383, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 380, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 352, in run_pipeline
+    snapshot_id = trigger_snapshot()
+                  ^^^^^^^^^^^^^^^^^^
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data8.py", line 126, in trigger_snapshot
+    r.raise_for_status()
+
+  File "C:\Users\VLCOLL~1\VENVS~1\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+
+
+[2025-10-29 21:30:34] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-29 21:30:34] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 21:30:34]   py$type:   SystemExit
+[2025-10-29 21:30:34]   py$value:  1
+[2025-10-29 21:30:34] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 340, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 337, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 316, in run_pipeline
+    snapshot_id = trigger_snapshot()
+                  ^^^^^^^^^^^^^^^^^^
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 112, in trigger_snapshot
+    die("Set BRIGHTDATA_API_KEY env var or edit BRIGHTDATA_API_KEY_FALLBACK.")
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 52, in die
+    sys.exit(1)
+
+
+[2025-10-29 21:35:21] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-29 21:35:22] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 21:35:22]   py$type:   SystemExit
+[2025-10-29 21:35:22]   py$value:  1
+[2025-10-29 21:35:22] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 340, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 337, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id)
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 316, in run_pipeline
+    snapshot_id = trigger_snapshot()
+                  ^^^^^^^^^^^^^^^^^^
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 112, in trigger_snapshot
+    die("Set BRIGHTDATA_API_KEY env var or edit BRIGHTDATA_API_KEY_FALLBACK.")
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 52, in die
+    sys.exit(1)
+
+
+[2025-10-29 22:12:42] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-29 22:12:42] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 22:12:42]   py$type:   SystemExit
+[2025-10-29 22:12:42]   py$value:  1
+[2025-10-29 22:12:42] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 441, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 436, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id,
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 403, in run_pipeline
+    die("Set BRIGHTDATA_API_KEY env var (or replace placeholder API key).")
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 70, in die
+    sys.exit(1)
+
+
+[2025-10-29 22:12:53] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-29 22:12:53] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 22:12:53]   py$type:   SystemExit
+[2025-10-29 22:12:53]   py$value:  1
+[2025-10-29 22:12:53] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 441, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 436, in main
+    run_pipeline(existing_snapshot_id=args.snapshot_id,
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 403, in run_pipeline
+    die("Set BRIGHTDATA_API_KEY env var (or replace placeholder API key).")
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 70, in die
+    sys.exit(1)
+
+
+[2025-10-29 22:51:45] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-29 22:51:45] ERROR:  NameError: name 'die' is not defined
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 22:51:45]   py$type:   NameError
+[2025-10-29 22:51:45]   py$value:  name 'die' is not defined
+[2025-10-29 22:51:45] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 36, in <module>
+    die("Set BRIGHTDATA_API_KEY (env) with your Bright Data API key.")
+    ^^^
+
+
+[2025-10-29 23:13:47] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py
+[2025-10-29 23:13:47] ERROR:  NameError: name 'die' is not defined
+Run `reticulate::py_last_error()` for details.
+[2025-10-29 23:13:47]   py$type:   NameError
+[2025-10-29 23:13:47]   py$value:  name 'die' is not defined
+[2025-10-29 23:13:47] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data9.py", line 36, in <module>
+    die("Set BRIGHTDATA_API_KEY (env) with your Bright Data API key.")
+    ^^^
+
+

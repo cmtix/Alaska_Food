@@ -1,0 +1,41 @@
+
+Warning messages:
+1: package 'reticulate' was built under R version 4.4.2 
+2: package 'fs' was built under R version 4.4.2 
+3: package 'glue' was built under R version 4.4.2 
+python:         C:/Users/vlcollier/.venvs/FP_env/Scripts/python.exe
+libpython:      C:/Users/vlcollier/AppData/Local/r-reticulate/r-reticulate/pyenv/pyenv-win/versions/3.12.7/python312.dll
+pythonhome:     C:/Users/vlcollier/.venvs/FP_env
+version:        3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]
+Architecture:   64bit
+numpy:          C:/Users/vlcollier/.venvs/FP_env/Lib/site-packages/numpy
+numpy_version:  2.1.3
+
+NOTE: Python version was forced by use_python() function
+LOG_DIR (R) => G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs
+FM log path => G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs/FM_20251031.log
+Resolved scripts:
+  ACC: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/ACC/ACC_PULL36.py
+  CS : NA
+  FM : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/FM/FM9_vc.py
+  WM : G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data10.py
+WM env: BRIGHTDATA_API_KEY=fb96b4…
+  |                                                                              |                                                                      |   0%
+──── Food Pull: 1 job(s) ─────────────────
+(1/1) WM — starting
+[2025-10-31 14:15:30] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Bright_Data10.py
+[2025-10-31 14:15:31] [OK] Triggered snapshot_id: sd_mhfewg8f2jjbv5yv97
+[2025-10-31 14:15:31] [INFO] Saved snapshot id → G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup\last_snapshot.txt
+[2025-10-31 14:15:31] [POLL] snapshot=sd_mhfewg8f2jjbv5yv97 status=running remaining=90m
+Timeout: snapshot did not become ready within the polling window.
+[2025-10-31 15:45:42] ERROR:  SystemExit: 1
+Run `reticulate::py_last_error()` for details.
+[2025-10-31 15:45:42]   py$type:   SystemExit
+[2025-10-31 15:45:42]   py$value:  1
+See log for full Python traceback: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs/WM_20251031.log
+   ✖ WM — 90m 12s
+  |                                                                              |======================================================================| 100%
+Error: 
+One or more pulls failed. Check logs in: G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/Scraping_Logs
+Execution halted
+

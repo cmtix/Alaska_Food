@@ -1,0 +1,8 @@
+ChatGPT prompts:
+1. Create store mappings, environment, paths, configurations
+2. 
+
+
+BUILD MASTER ONLY:
+Use in TERMINAL --> Powershell:
+& "C:\Users\vlcollier\AppData\Local\Programs\Python\Python313\python.exe" "G:\...\DATA_CLEANING_SCRIPTS\master_assembly.py"

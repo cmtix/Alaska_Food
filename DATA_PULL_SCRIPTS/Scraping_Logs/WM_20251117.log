@@ -1,0 +1,46 @@
+[2025-11-17 02:51:28] ERROR: script exited with code 1
+[2025-11-17 02:51:29] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup\central_food_pull.py", line 263, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 697, in <module>
+    main()
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 686, in main
+    run_pipeline(
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 606, in run_pipeline
+    poll_until_ready(snapshot_id, max_wait_minutes=max_wait_min, poll_every=poll_every_s)
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 355, in poll_until_ready
+    die("Timeout: snapshot did not become ready within the polling window.")
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 50, in die
+    sys.exit(1)
+SystemExit: 1
+
+[2025-11-17 06:15:01] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py
+[2025-11-17 11:50:55] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py
+[2025-11-17 12:53:18] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\snapshotdownload.py
+[2025-11-17 12:53:19] SUCCESS.
+[2025-11-17 15:46:49] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py
+[2025-11-17 15:46:50] ERROR: exception while running script.
+[2025-11-17 15:46:50] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup\central_food_pull.py", line 263, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 718, in <module>
+    main()
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 707, in main
+    run_pipeline(
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 619, in run_pipeline
+    snapshot_id = trigger_snapshot(input_csv_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\Walmart_Bright_Data11.py", line 289, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=run
+

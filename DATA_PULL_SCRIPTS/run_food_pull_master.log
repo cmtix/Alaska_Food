@@ -1,0 +1,252 @@
+==== run_food_pull.bat started at Sun 11/16/2025 20:07:22.36 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = fb96b4?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Sun 11/16/2025 20:16:15.31 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = fb96b4?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Sun 11/16/2025 20:17:42.85 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = fb96b4?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Sun 11/16/2025 20:50:53.56 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = fb96b4?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Mon 11/17/2025  6:15:01.43 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = fb96b4?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+==== run_food_pull.bat started at Mon 11/17/2025 11:50:54.80 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = fb96b4?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+==== run_food_pull.bat started at Mon 11/17/2025 12:53:18.21 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+==== run_food_pull.bat started at Mon 11/17/2025 15:46:48.83 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Tue 11/18/2025  6:15:01.66 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Wed 11/19/2025  6:15:01.68 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Thu 11/20/2025  6:15:01.69 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Sun 11/23/2025  6:15:01.70 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Wed 12/03/2025  6:15:01.61 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Thu 12/04/2025  6:15:01.63 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Sat 12/06/2025  6:15:01.62 ====
+PROJ=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING
+PY_SETUP=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Python_setup
+SCRAPE_LOG_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] Activating FP_env virtualenv...
+RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
+[BAT] ACC_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] BRIGHTDATA_OUT_DIR=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] KROGER_CLIENT_ID (masked) = uaaeco?
+[BAT] BRIGHTDATA_API_KEY (masked) = 5470de?
+[BAT]   MAX_WAIT_MIN=360, POLL_EVERY_S=120
+[BAT]   DATASET_ID=gd_m693oc1r1gebnayxq
+[BAT] Launching central_food_pull.py
+
+[BAT] central_food_pull.py ERRORLEVEL=

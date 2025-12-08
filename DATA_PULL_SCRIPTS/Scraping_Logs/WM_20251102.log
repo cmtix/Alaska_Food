@@ -1,0 +1,13 @@
+[2025-11-02 06:15:03] START:   G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Snapshot_only5.py
+[2025-11-02 06:15:07] ERROR:  SystemExit: 2
+Run `reticulate::py_last_error()` for details.
+[2025-11-02 06:15:07]   py$type:   SystemExit
+[2025-11-02 06:15:07]   py$value:  2
+[2025-11-02 06:15:07] PY_TRACEBACK:
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Snapshot_only5.py", line 296, in <module>
+    main()
+
+  File "G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/Drones_MV/GITHUB/ISER/MJones/FOOD_SECURITY/FOOD_PRICING/DATA_PULL_SCRIPTS/WM/Bright_Data/Scripts/Walmart_Snapshot_only5.py", line 205, in main
+    sys.exit(2)
+
+
