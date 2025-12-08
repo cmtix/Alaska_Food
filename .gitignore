@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Allow only these folders to be tracked
+!DATA_CLEANING_SCRIPTS/
+!DATA_PULL_SCRIPTS/
+!DATA/GITHUB_PUSH/
+
+# Allow this file itself
+!.gitignore
+
+# Ignore R/Positron noise
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Ignore OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
