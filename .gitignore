@@ -4,7 +4,7 @@
 # Allow only these folders to be tracked
 !DATA_CLEANING_SCRIPTS/
 !DATA_PULL_SCRIPTS/
-!DATA/GITHUB_PUSH/
+!DATA/
 
 # Allow this file itself
 !.gitignore
