@@ -181,7 +181,12 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
     missing_by_row_dist_path = qa_dir / f"QA_missing_by_row_count_distribution_{tag}.csv"
     overall_summary_path = qa_dir / f"QA_missing_overall_summary_{tag}.csv"
     missing_by_source_file_path = qa_dir / f"QA_missing_by_source_file_{tag}.csv"
+
+    # NOTE: we will repurpose QA_missing_by_month_* as an alias for
+    #       the new QA_Audit_by_Month_Year_* table so existing Excel
+    #       workbooks still function.
     missing_by_month_path = qa_dir / f"QA_missing_by_month_{tag}.csv"
+    audit_by_month_year_path = qa_dir / f"QA_Audit_by_Month_Year_{tag}.csv"
 
     counts_overall_path = qa_dir / f"QA_counts_overall_{tag}.csv"
     counts_by_home_store_path = qa_dir / f"QA_counts_by_home_store_{tag}.csv"
@@ -191,16 +196,18 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
     counts_by_month_storekey_path = qa_dir / f"QA_counts_by_month_primary_store_key_{tag}.csv"
 
     # --- Basic missingness ---
-    total_rows, total_columns = master_long.shape
+    total_rows = int(master_long.shape[0])
+    total_columns = int(master_long.shape[1])
     total_cells = int(total_rows * total_columns)
     total_missing = int(master_long.isna().sum().sum())
 
     col_miss = master_long.isna().sum().rename("missing_cells").reset_index()
     col_miss = col_miss.rename(columns = {"index": "column"})
     col_miss["total_rows"] = total_rows
-    col_miss["pct_missing_cells"] = (
-        col_miss["missing_cells"] / col_miss["total_rows"] if total_rows > 0 else np.nan
-    )
+    if total_rows > 0:
+        col_miss["pct_missing_cells"] = col_miss["missing_cells"] / col_miss["total_rows"]
+    else:
+        col_miss["pct_missing_cells"] = np.nan
     col_miss = col_miss.sort_values("pct_missing_cells", ascending = False)
     col_miss.to_csv(missing_by_col_path, index = False)
 
@@ -220,9 +227,7 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
                 "total_columns": total_columns,
                 "total_cells": total_cells,
                 "total_missing_cells": total_missing,
-                "pct_missing_cells": (
-                    total_missing / total_cells if total_cells > 0 else np.nan
-                ),
+                "pct_missing_cells": (total_missing / total_cells) if total_cells > 0 else np.nan
             }
         ]
     )
@@ -230,21 +235,22 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
 
     # --- Missingness by source file (if column exists) ---
     if "SOURCE_FILE" in master_long.columns:
-        tmp = master_long.copy()
-        tmp["row_missing"] = row_missing_counts
-        miss_by_source = tmp.groupby("SOURCE_FILE", as_index = False).agg(
-            n_rows = ("row_missing", "size"),
-            missing_cells = ("row_missing", "sum"),
+        tmp_source = master_long.copy()
+        tmp_source["row_missing"] = row_missing_counts
+        miss_by_source = (
+            tmp_source.groupby("SOURCE_FILE", as_index = False)
+            .agg(
+                n_rows = ("row_missing", "size"),
+                missing_cells = ("row_missing", "sum")
+            )
         )
-        miss_by_source["pct_missing_cells"] = (
-            miss_by_source["missing_cells"]
-            / (miss_by_source["n_rows"] * total_columns)
-            if total_columns > 0
-            else np.nan
-        )
-        miss_by_source = miss_by_source.sort_values(
-            "pct_missing_cells", ascending = False
-        )
+        if total_columns > 0:
+            miss_by_source["pct_missing_cells"] = (
+                miss_by_source["missing_cells"] / (miss_by_source["n_rows"] * total_columns)
+            )
+        else:
+            miss_by_source["pct_missing_cells"] = np.nan
+        miss_by_source = miss_by_source.sort_values("pct_missing_cells", ascending = False)
         miss_by_source.to_csv(missing_by_source_file_path, index = False)
     else:
         miss_by_source = pd.DataFrame(
@@ -255,7 +261,8 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
     # --- Date and month labels for coverage tables ---
     tmp_dates = _derive_panel_date(master_long)
     tmp_dates["MONTH_LABEL"] = _safe_month_label(
-        tmp_dates.get("YEAR"), tmp_dates.get("MONTH")
+        tmp_dates.get("YEAR"),
+        tmp_dates.get("MONTH")
     )
 
     # --- Counts overall ---
@@ -298,28 +305,25 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
         counts_by_month = pd.DataFrame(columns = ["MONTH_LABEL", "n_records"])
         counts_by_month.to_csv(counts_by_month_path, index = False)
 
-    # --- Counts by MONTH_LABEL & HOME_STORE_NAME ---
+    # --- Counts by MONTH_LABEL & HOME_STORE_NAME (raw counts) ---
     if "HOME_STORE_NAME" in tmp_dates.columns and "MONTH_LABEL" in tmp_dates.columns:
         counts_by_month_store = (
             tmp_dates.groupby(["HOME_STORE_NAME", "MONTH_LABEL"], as_index = False)
             .agg(n_records = ("HOME_STORE_NAME", "size"))
             .sort_values(["HOME_STORE_NAME", "MONTH_LABEL"])
         )
-        # Add STATUS column like before
+        # STATUS here is just for this table; the true missing logic is in the audit below
         counts_by_month_store["STATUS"] = np.where(
-            counts_by_month_store["n_records"] > 0, "OK", "MISSING"
+            counts_by_month_store["n_records"] > 0,
+            "OK",
+            "MISSING"
         )
         counts_by_month_store.to_csv(counts_by_month_store_path, index = False)
-
-        # For the "missing_by_month" QA table, we use the same content
-        miss_by_month = counts_by_month_store.copy()
-        miss_by_month.to_csv(missing_by_month_path, index = False)
     else:
         counts_by_month_store = pd.DataFrame(
             columns = ["HOME_STORE_NAME", "MONTH_LABEL", "n_records", "STATUS"]
         )
         counts_by_month_store.to_csv(counts_by_month_store_path, index = False)
-        counts_by_month_store.to_csv(missing_by_month_path, index = False)
 
     # --- Counts by MONTH_LABEL & PRIMARY_STORE_KEY ---
     if "PRIMARY_STORE_KEY" in tmp_dates.columns and "MONTH_LABEL" in tmp_dates.columns:
@@ -335,6 +339,79 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
         )
         counts_by_month_storekey.to_csv(counts_by_month_storekey_path, index = False)
 
+    # ----------------------------------------------------------------
+    # NEW: Audit table by HOME_STORE_NAME x MONTH_YEAR (02-23 to TODAY)
+    # ----------------------------------------------------------------
+    from datetime import datetime as _dt
+
+    # Canonical store list for the audit
+    expected_stores = ["ACC", "CS", "FM", "WM"]
+
+    # Month range: 2023-02 through current month
+    start_month = pd.Timestamp(year = 2023, month = 2, day = 1)
+    now_dt = _dt.now()
+    end_month = pd.Timestamp(year = now_dt.year, month = now_dt.month, day = 1)
+
+    month_range = pd.date_range(start = start_month, end = end_month, freq = "MS")
+    month_labels_full = [f"{d.year:04d}-{d.month:02d}" for d in month_range]
+
+    # Create a lookup from counts_by_month_store
+    if not counts_by_month_store.empty:
+        counts_lookup = (
+            counts_by_month_store
+            .set_index(["HOME_STORE_NAME", "MONTH_LABEL"])
+            .sort_index()
+        )
+    else:
+        counts_lookup = pd.DataFrame(
+            columns = ["HOME_STORE_NAME", "MONTH_LABEL", "n_records", "STATUS"]
+        )
+        if not counts_lookup.empty:
+            counts_lookup = counts_lookup.set_index(["HOME_STORE_NAME", "MONTH_LABEL"])
+
+    audit_rows = []
+
+    for store in expected_stores:
+        store_upper = str(store).upper()
+        for lbl in month_labels_full:
+            year_str = lbl[0:4]
+            month_str = lbl[5:7]
+            yy_str = year_str[2:4]
+            month_year = f"{yy_str}-{month_str}"
+
+            key = (store_upper, lbl)
+            if counts_lookup is not None and not counts_lookup.empty and key in counts_lookup.index:
+                n_records_val = int(counts_lookup.loc[key, "n_records"])
+                has_data_flag = 1
+                status_val = "OK"
+            else:
+                n_records_val = 0
+                has_data_flag = 0
+                status_val = "MISSING"
+
+            audit_rows.append(
+                {
+                    "HOME_STORE_NAME": store_upper,
+                    "YEAR": int(year_str),
+                    "MONTH": int(month_str),
+                    "MONTH_YEAR": month_year,
+                    "N_RECORDS": n_records_val,
+                    "HAS_DATA_FLAG": has_data_flag,
+                    "STATUS": status_val
+                }
+            )
+
+    audit_df = pd.DataFrame(audit_rows)
+    audit_df = audit_df.sort_values(
+        by = ["HOME_STORE_NAME", "YEAR", "MONTH"]
+    )
+
+    # Write the new audit output (preferred name)
+    audit_df.to_csv(audit_by_month_year_path, index = False)
+
+    # For backward compatibility, also write it to QA_missing_by_month_*
+    audit_df.to_csv(missing_by_month_path, index = False)
+
     return {
         "col_miss_df": col_miss,
         "row_missing_counts": row_missing_counts,
@@ -346,6 +423,7 @@ def _write_qa_csvs(master_long: pd.DataFrame, qa_dir: Path, tag: str) -> Dict[st
         "counts_by_month": counts_by_month,
         "counts_by_month_store": counts_by_month_store,
         "counts_by_month_storekey": counts_by_month_storekey,
+        "audit_by_month_year": audit_df
     }
 
 
