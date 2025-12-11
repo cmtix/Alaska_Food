@@ -1,0 +1,87 @@
+# Variable Definitions for summary_group_market_dashboard.csv
+
+## Dataset Overview
+This dataset contains State of Alaska food procurement records from a distributor, showing monthly aggregated purchase data by market, product classification, and pricing information from April 2023 to December 2024.
+
+## Variables
+
+### Temporal Variable
+
+**month_year** (date)
+- Month and year of procurement record
+- Format: YYYY-MM-DD (always first day of month)
+- Range: 2023-04-01 to 2024-12-01
+- Example values: "2023-04-01", "2024-12-01"
+
+### Geographic Variable
+
+**market_name** (string/categorical)
+- Location of distributor warehouse where products originated; SEATTLE SOUTH serves the whole souteast, and ANCHORAGE serves the rest of the state. AK producers would have to sell to the distributor at the warehouse level.
+- Example values: "ANCHORAGE", "SEATTLE SOUTH"
+- Represents procurement/distribution centers serving Alaska
+
+### Product Classification Variables (Hierarchical)
+
+**pim_class_canon** (string/categorical)
+- Top-level product classification (canonical class)
+- Broadest product category
+- Example values: "BEEF", "BEVERAGE", "DAIRY", "PRODUCE, FRESH", "SEAFOOD", "SPECIALTY MEATS"
+
+**pim_category_description** (string/categorical)
+- Mid-level product classification (category)
+- More specific than class, broader than group
+- Example values: 
+  - "BEEF ROAST, CORNED BEEF & PASTRAMI"
+  - "COFFEE"
+  - "CHEESE, CHEDDAR"
+  - "POTATOES, FRESH"
+
+**pim_group_description** (string/categorical)
+- Detailed product classification (group)
+- Most specific product description level
+- Includes preparation state, storage method, and specific varieties
+- Example values:
+  - "BEEF, GROUND, RAW, FROZEN"
+  - "CHEESE, CHEDDAR, SLICES"
+  - "POTATOES, WHOLE (WHITE), FRESH"
+  - "COFFEE, ROAST AND GROUND CAFFEINATED"
+
+### Quantity and Sales Variables
+
+**total_net_wt_shipped** (float)
+- Total net weight of product shipped in the period
+- Unit: pounds (lbs)
+- Example values: 72, 4160, 1521.99
+
+**total_sales** (float)
+- Total sales value for the product in the period
+- Unit: US dollars ($)
+- Example values: 585.02, 5196.88, 9195.41
+
+**total_cases** (float)
+- Total number of cases shipped
+- Can include fractional cases (e.g., 0.25, 1.9999)
+- Example values: 6, 104, 0.75, 2.25
+
+**est_preoh_price_per_lb** (float)
+- Estimated pre-overhead price per pound (negotiated case-level overhead rate netted out for calculation)
+- Calculated as: total_sales / total_net_wt_shipped
+- Unit: dollars per pound ($/lb)
+- Example values: 7.94777777777778, 1.196, 26.1635379084967
+
+## Data Structure
+- Each row represents a unique combination of: Month/Year, Market, and Product (at the group level)
+- Total observations: 20,755 rows
+- Time period: April 2023 - December 2024
+- Hierarchical product classification: Class → Category → Group
+
+## Data Types Summary
+- **Date**: month_year
+- **String/Categorical**: market_name, pim_class_canon, pim_category_description, pim_group_description
+- **Float**: total_net_wt_shipped, total_sales, total_cases, est_preoh_price_per_lb
+
+## Notes
+- The dataset represents aggregated State of Alaska monthly procurement data from a major in-state distributor
+- Price per pound is estimated and excludes overhead costs
+- Cases can be fractional, reflecting partial case purchases
+- Product classifications follow a three-tier hierarchy (class > category > group)
