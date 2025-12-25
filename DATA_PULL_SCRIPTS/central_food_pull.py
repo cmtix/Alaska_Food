@@ -335,7 +335,7 @@ def main() -> int:
         # Read tuning from environment, but provide sane defaults
         snapshot_id = os.getenv("BRIGHTDATA_SNAPSHOT_ID", "").strip()
         use_last = os.getenv("BRIGHTDATA_USE_LAST", "1")
-        max_wait = os.getenv("BRIGHTDATA_MAX_WAIT_MIN", "420")
+        max_wait = str(int(os.getenv("BRIGHTDATA_MAX_WAIT_MIN", "420")))
         poll_every = os.getenv("BRIGHTDATA_POLL_EVERY_S", "120")
         out_dir = os.getenv(
             "BRIGHTDATA_OUT_DIR",

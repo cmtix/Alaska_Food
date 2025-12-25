@@ -1,0 +1,28 @@
+[2025-12-15 18:08:29] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\CS\BrightData\Carrs8-BrightData.py
+[2025-12-15 18:08:29] ERROR: exception while running script.
+[2025-12-15 18:08:29] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 263, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\CS\BrightData\Carrs8-BrightData.py", line 8, in <module>
+    CS_OUT_DIR = os.environ.get(
+                 ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+
+[2025-12-15 22:26:05] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\CS\BrightData\Carrs8-BrightData.py
+[2025-12-15 22:26:05] ERROR: exception while running script.
+[2025-12-15 22:26:05] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 263, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\CS\BrightData\Carrs8-BrightData.py", line 8, in <module>
+    CS_OUT_DIR = os.environ.get(
+                 ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+

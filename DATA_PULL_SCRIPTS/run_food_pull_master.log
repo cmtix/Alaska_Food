@@ -250,3 +250,13 @@ RUN_ACC=FALSE, RUN_CS=FALSE, RUN_FM=FALSE, RUN_WM=TRUE
 [BAT] Launching central_food_pull.py
 
 [BAT] central_food_pull.py ERRORLEVEL=
+==== run_food_pull.bat started at Mon 12/15/2025 14:11:38.62 ====
+PROJ=C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food
+CENTRAL_PY=C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\Python_setup\central_food_pull.py
+[BAT] Launching central_food_pull.py
+==== run_food_pull.bat started at Mon 12/15/2025 14:13:54.44 ====
+PROJ=
+CENTRAL_PY=C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py
+[BAT] Launching central_food_pull.py
+[BAT] Launching central_food_pull.py
+[BAT] EXIT CODE=

@@ -11,15 +11,15 @@
 #  - optional month-folder merger (JSON/NDJSON -> single CSV)
 #
 # Env vars honored (handy when called from R/reticulate):
-#   BRIGHTDATA_API_KEY           (required)
-#   BRIGHTDATA_DATASET_ID        (default "gd_m693oc1r1gebnayxq")
-#   BRIGHTDATA_OUT_DIR           (root for Walmart output; YY_MM subfolder auto-created)
-#   BRIGHTDATA_SNAPSHOT_ID       (reuse instead of trigger)
-#   BRIGHTDATA_USE_LAST=1        (reuse last_snapshot.txt if present and no explicit id)
-#   BRIGHTDATA_MAX_WAIT_MIN      (default 90)
-#   BRIGHTDATA_POLL_EVERY_S      (default 30)
-#   BRIGHTDATA_SEARCH_FILE       (path to WM_search_list.txt)
-#   BRIGHTDATA_ALASKA_ONLY=1     (filter zip codes to 995–999)
+#   WM_API_KEY           (required)
+#   WM_DATASET_ID        (default "gd_m693oc1r1gebnayxq")
+#   WM_OUT_DIR           (root for Walmart output; YY_MM subfolder auto-created)
+#   WM_SNAPSHOT_ID       (reuse instead of trigger)
+#   WM_USE_LAST=1        (reuse last_snapshot.txt if present and no explicit id)
+#   WM_MAX_WAIT_MIN      (default 90)
+#   WM_POLL_EVERY_S      (default 30)
+#   WM_SEARCH_FILE       (path to WM_search_list.txt)
+#   WM_ALASKA_ONLY=1     (filter zip codes to 995–999)
 #
 # CLI examples:
 #   python Walmart_Bright_Data11.py --snapshot-id sd_abcdef123
@@ -63,29 +63,29 @@ def _getenv_int(name: str, default: int) -> int:
     except Exception:
         return default
 
-API_KEY = _getenv("BRIGHTDATA_API_KEY")              # required, but validated later
-DATASET_ID = _getenv("BRIGHTDATA_DATASET_ID", "gd_m693oc1r1gebnayxq")
+API_KEY = _getenv("WM_API_KEY")              # required, but validated later
+DATASET_ID = _getenv("WM_DATASET_ID", "gd_m693oc1r1gebnayxq")
 
 # Walmart root path (where everything goes) + YY_MM subfolder
 WALMART_ROOT_DEFAULT = (
     r"G:/.shortcut-targets-by-id/10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg/"
     r"Drones_MV/UAV Rural Essential Goods Delivery/FOOD_PRICING/Data_Scraping/Walmart"
 )
-OUT_ROOT = Path(_getenv("BRIGHTDATA_OUT_DIR", WALMART_ROOT_DEFAULT)).resolve()
+OUT_ROOT = Path(_getenv("WM_OUT_DIR", WALMART_ROOT_DEFAULT)).resolve()
 RUN_SUBDIR = "WM_" + datetime.now().strftime("%y_%m")  # WM_YY_MM, e.g. WM_25_11
 OUT_DIR = OUT_ROOT / RUN_SUBDIR
 
-USE_LAST = _getenv("BRIGHTDATA_USE_LAST", "0") in {"1", "true", "TRUE", "yes", "YES"}
+USE_LAST = _getenv("WM_USE_LAST", "0") in {"1", "true", "TRUE", "yes", "YES"}
 
-DEFAULT_MAX_WAIT_MIN = _getenv_int("BRIGHTDATA_MAX_WAIT_MIN", 90)
-DEFAULT_POLL_EVERY_S = _getenv_int("BRIGHTDATA_POLL_EVERY_S", 30)
+DEFAULT_MAX_WAIT_MIN = _getenv_int("WM_MAX_WAIT_MIN", 360)
+DEFAULT_POLL_EVERY_S = _getenv_int("WM_POLL_EVERY_S", 30)
 
-SEARCH_FILE_ENV = _getenv("BRIGHTDATA_SEARCH_FILE", "")
-ALASKA_ONLY_ENV = _getenv("BRIGHTDATA_ALASKA_ONLY", "0") in {"1","true","TRUE","yes","YES"}
+SEARCH_FILE_ENV = _getenv("WM_SEARCH_FILE", "")
+ALASKA_ONLY_ENV = _getenv("WM_ALASKA_ONLY", "0") in {"1","true","TRUE","yes","YES"}
 
 # ─────────────────────────────── HTTP/session constants ────────────────────────
 
-BASE = "https://api.brightdata.com/datasets/v3"
+BASE = "https://api.WM.com/datasets/v3"
 SESSION = requests.Session()  # authorization header set later (after API_KEY validation)
 
 # ─────────────────────────────── Normalization helpers ─────────────────────────
@@ -270,7 +270,7 @@ def trigger_snapshot(input_csv: Path) -> str:
     Trigger a new snapshot using the provided input CSV.
     """
     if not DATASET_ID:
-        die("Missing DATASET_ID. Set BRIGHTDATA_DATASET_ID or edit the script.")
+        die("Missing DATASET_ID. Set WM_DATASET_ID or edit the script.")
 
     url = f"{BASE}/trigger"
     params = {
@@ -373,8 +373,8 @@ def download_bytes(url: str) -> bytes:
 
 def download_outputs(snapshot_id: str, out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
-    csv_path = out_dir / "walmart_brightdata_raw.csv"
-    json_path = out_dir / "walmart_brightdata_raw.json"
+    csv_path = out_dir / "walmart_WM_raw.csv"
+    json_path = out_dir / "walmart_WM_raw.json"
 
     csv_bytes = download_bytes(f"{BASE}/snapshot/{snapshot_id}/file.csv")
     csv_path.write_bytes(csv_bytes)
@@ -580,7 +580,7 @@ def merge_month_json_to_csv(month_dir: Path) -> Path:
     if not json_files:
         die(f"No JSON/NDJSON files found in: {month_dir}")
 
-    out_csv = month_dir / f"{month_dir.name}_walmart_brightdata_normalized.csv"
+    out_csv = month_dir / f"{month_dir.name}_walmart_WM_normalized.csv"
     pull_date = datetime.now().strftime("%m-%d-%Y")
     final_cols = FIELDNAMES + ["PULL_DATE"]
 
@@ -613,7 +613,7 @@ def run_pipeline(
 ) -> None:
 
     if not API_KEY:
-        die("Set BRIGHTDATA_API_KEY (env) with your Bright Data API key.")
+        die("Set WM_API_KEY (env) with your Bright Data API key.")
     SESSION.headers.update({"Authorization": f"Bearer {API_KEY}"})
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -734,7 +734,7 @@ def main():
     if args.snapshot_id:
         snapshot_id = args.snapshot_id.strip()
     else:
-        env_sid = _getenv("BRIGHTDATA_SNAPSHOT_ID", "")
+        env_sid = _getenv("WM_SNAPSHOT_ID", "")
         if env_sid:
             snapshot_id = env_sid
         elif USE_LAST:

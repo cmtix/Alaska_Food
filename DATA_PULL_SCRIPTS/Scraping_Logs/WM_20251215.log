@@ -1,0 +1,66 @@
+[2025-12-15 18:32:06] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\normalize_split_wm_json.py
+[2025-12-15 18:32:06] ERROR: script exited with code 2
+[2025-12-15 18:32:06] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 1931, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 2196, in _parse_known_args
+    raise ArgumentError(None, _('the following arguments are required: %s') %
+argparse.ArgumentError: the following arguments are required: --json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 263, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\normalize_split_wm_json.py", line 192, in <module>
+    args = ap.parse_args()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 1895, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 1933, in parse_known_args
+    self.error(str(err))
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 2672, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 2659, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+[2025-12-15 22:47:19] START: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\normalize_split_wm_json.py
+[2025-12-15 22:47:19] ERROR: script exited with code 2
+[2025-12-15 22:47:19] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 1931, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 2196, in _parse_known_args
+    raise ArgumentError(None, _('the following arguments are required: %s') %
+argparse.ArgumentError: the following arguments are required: --json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 263, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA_PULL_SCRIPTS\WM\Bright_Data\Scripts\normalize_split_wm_json.py", line 192, in <module>
+    args = ap.parse_args()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 1895, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 1933, in parse_known_args
+    self.error(str(err))
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 2672, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\argparse.py", line 2659, in exit
+    _sys.exit(status)
+SystemExit: 2
+
