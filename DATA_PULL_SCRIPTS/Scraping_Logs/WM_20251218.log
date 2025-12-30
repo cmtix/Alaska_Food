@@ -1,0 +1,247 @@
+[2025-12-18 13:30:20] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 13:30:21] ERROR: exception while running script.
+[2025-12-18 13:30:21] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 810, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 799, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 711, in run_pipeline
+    snapshot_id = trigger_snapshot(input_csv_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 319, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true
+
+[2025-12-18 13:33:38] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 13:34:09] ERROR: exception while running script.
+[2025-12-18 13:34:09] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 792, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 781, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 693, in run_pipeline
+    snapshot_id = trigger_snapshot(input_csv_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 303, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true
+
+[2025-12-18 13:36:26] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 13:36:26] ERROR: exception while running script.
+[2025-12-18 13:36:26] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 783, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 772, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 684, in run_pipeline
+    snapshot_id = trigger_snapshot(input_csv_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: trigger_snapshot() missing 1 required positional argument: 'zips'
+
+[2025-12-18 13:36:34] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 13:36:35] ERROR: exception while running script.
+[2025-12-18 13:36:35] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 783, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 772, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 684, in run_pipeline
+    snapshot_id = trigger_snapshot(input_csv_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: trigger_snapshot() missing 1 required positional argument: 'zips'
+
+[2025-12-18 13:54:46] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 13:54:47] ERROR: exception while running script.
+[2025-12-18 13:54:47] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 821, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 810, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 722, in run_pipeline
+    snapshot_id = trigger_snapshot(input_csv_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: trigger_snapshot() missing 1 required positional argument: 'zips'
+
+[2025-12-18 14:11:34] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 14:11:34] ERROR: exception while running script.
+[2025-12-18 14:11:34] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 821, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 810, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 702, in run_pipeline
+    if not input_csv_path.exists():
+           ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'input_csv_path' where it is not associated with a value
+
+[2025-12-18 14:16:00] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 14:16:00] ERROR: exception while running script.
+[2025-12-18 14:16:00] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 802, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 791, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 703, in run_pipeline
+    snapshot_id = trigger_snapshot(items, zips)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 342, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.brightdata.com/datasets/v3/trigger
+
+[2025-12-18 14:18:21] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 14:18:21] ERROR: exception while running script.
+[2025-12-18 14:18:21] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 803, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 792, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 704, in run_pipeline
+    snapshot_id = trigger_snapshot(items, zips)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 343, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.brightdata.com/datasets/v3/trigger/keyword
+
+[2025-12-18 14:22:40] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 14:22:41] ERROR: exception while running script.
+[2025-12-18 14:22:41] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 808, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 797, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 709, in run_pipeline
+    snapshot_id = trigger_snapshot(items, zips)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 347, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.brightdata.com/datasets/v3/trigger/keyword?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true
+
+[2025-12-18 14:24:35] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 14:24:36] ERROR: exception while running script.
+[2025-12-18 14:24:36] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 809, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 798, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 710, in run_pipeline
+    snapshot_id = trigger_snapshot(items, zips)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 348, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true
+
+[2025-12-18 14:27:16] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 14:27:17] ERROR: exception while running script.
+[2025-12-18 14:27:17] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 808, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 797, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 709, in run_pipeline
+    snapshot_id = trigger_snapshot(items, zips)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 347, in trigger_snapshot
+    r.raise_for_status()
+  File "C:\Users\vlcollier\.venvs\FP_env\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_m693oc1r1gebnayxq&include_errors=true&type=discover_new
+
+[2025-12-18 14:34:28] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-18 19:27:32] ERROR: script exited with code 1
+[2025-12-18 19:27:32] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 814, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 803, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 723, in run_pipeline
+    poll_until_ready(snapshot_id, max_wait_minutes=max_wait_min, poll_every=poll_every_s)
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 427, in poll_until_ready
+    die(f"Snapshot failed with status={status}")
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 49, in die
+    sys.exit(1)
+SystemExit: 1
+

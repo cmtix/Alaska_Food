@@ -1,0 +1,4 @@
+[2025-12-24 15:23:24] Central runner started
+[2025-12-24 15:23:24] RUN_DATE = 2025-12-24
+[2025-12-24 15:23:24] SCRAPE_LOG_DIR = C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\Scraping_Logs
+[2025-12-24 15:23:24] Toggles: RUN_ACC=False, RUN_CS=False, RUN_FM=False, RUN_WM=True

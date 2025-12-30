@@ -1,0 +1,59 @@
+[2025-12-30 12:57:24] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-30 12:57:28] ERROR: script exited with code 1
+[2025-12-30 12:57:28] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 71, in <module>
+    raise RuntimeError(
+RuntimeError: Snapshot not deliverable. Response begins with:
+{"status":"building","message":"Dataset is not ready yet, try again in 30s"}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 261, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 93, in <module>
+    sys.exit(1)
+SystemExit: 1
+
+[2025-12-30 13:56:36] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-30 13:56:40] ERROR: script exited with code 1
+[2025-12-30 13:56:40] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 71, in <module>
+    raise RuntimeError(
+RuntimeError: Snapshot not deliverable. Response begins with:
+{"status":"building","message":"Dataset is not ready yet, try again in 30s"}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 261, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 93, in <module>
+    sys.exit(1)
+SystemExit: 1
+
+[2025-12-30 14:26:46] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-30 14:26:46] ERROR: exception while running script.
+[2025-12-30 14:26:46] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 266, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 259, in _get_code_from_file
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 68
+    try:
+    ^^^
+SyntaxError: expected 'except' or 'finally' block
+
+[2025-12-30 14:33:57] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-30 14:34:00] SUCCESS (sys.exit(0)).
+[2025-12-30 14:36:53] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-30 14:36:57] SUCCESS (sys.exit(0)).

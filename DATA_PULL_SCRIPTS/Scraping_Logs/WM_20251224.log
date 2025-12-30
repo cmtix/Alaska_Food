@@ -1,0 +1,72 @@
+[2025-12-24 14:20:47] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 14:20:47] ERROR: exception while running script.
+[2025-12-24 14:20:47] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 261, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 73, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 67, in main
+    with REGISTRY.open("w", newline="", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\vlcollier\\GITHUB_PUSH\\Alaska_Food\\DATA_PULL_SCRIPTS\\WM\\wm_snapshot_registry.csv'
+
+[2025-12-24 14:21:37] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 14:21:38] SUCCESS.
+[2025-12-24 14:28:09] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 14:28:10] ERROR: exception while running script.
+[2025-12-24 14:28:10] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 261, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 144, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 107, in main
+    auto_register_new_snapshots(existing_ids)
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 45, in auto_register_new_snapshots
+    ready = list_ready_snapshots()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 34, in list_ready_snapshots
+    snapshots = r.json().get("snapshots", [])
+                ^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+
+[2025-12-24 14:33:19] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 14:33:39] SUCCESS.
+[2025-12-24 14:44:01] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 14:44:21] SUCCESS.
+[2025-12-24 15:21:11] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 15:21:15] ERROR: exception while running script.
+[2025-12-24 15:21:15] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 261, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 80, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 74, in main
+    download_snapshot(snapshot_id)
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 57, in download_snapshot
+    out_path = OUT_DIR / f"{snapshot_id}.csv"
+               ^^^^^^^
+NameError: name 'OUT_DIR' is not defined
+
+[2025-12-24 15:23:24] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 15:23:29] SUCCESS.
+[2025-12-24 15:29:51] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 15:29:55] SUCCESS.
+[2025-12-24 15:31:56] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 15:32:02] SUCCESS.
+[2025-12-24 15:47:10] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-24 15:47:14] SUCCESS.

@@ -1,0 +1,61 @@
+[2025-12-22 14:52:46] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-22 14:55:32] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-22 14:58:08] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-22 16:08:16] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-22 16:08:16] ERROR: script exited with code 1
+[2025-12-22 16:08:16] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 267, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 256, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 202, in run_pipeline
+    die("WM_MODE=DOWNLOAD requires WM_SNAPSHOT_ID or WM_USE_LAST")
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 51, in die
+    sys.exit(1)
+SystemExit: 1
+
+[2025-12-22 16:10:10] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-22 16:10:10] ERROR: script exited with code 1
+[2025-12-22 16:10:10] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 267, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 256, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 202, in run_pipeline
+    die("WM_MODE=DOWNLOAD requires WM_SNAPSHOT_ID or WM_USE_LAST")
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 51, in die
+    sys.exit(1)
+SystemExit: 1
+
+[2025-12-22 16:14:42] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-22 16:14:42] ERROR: script exited with code 1
+[2025-12-22 16:14:42] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 256, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 267, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 256, in main
+    run_pipeline(
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 202, in run_pipeline
+    die("WM_MODE=DOWNLOAD requires WM_SNAPSHOT_ID or WM_USE_LAST")
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 51, in die
+    sys.exit(1)
+SystemExit: 1
+
+[2025-12-22 16:17:42] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py

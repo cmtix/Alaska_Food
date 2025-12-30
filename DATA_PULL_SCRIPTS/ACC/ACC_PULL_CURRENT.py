@@ -21,8 +21,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 # ──────────────────────────────────────────────────────────────────────────────
 # 0. SET UP A SIMPLE FILE-BASED LOG
 # ──────────────────────────────────────────────────────────────────────────────
-LOG_DIR = r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\UAV Rural Essential Goods Delivery\FOOD_PRICING\Data_Scraping\SCRAPING_LOG"
+LOG_DIR = os.environ.get(
+    "SCRAPE_LOG_DIR",
+    r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg"
+    r"\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING"
+    r"\DATA_PULL_SCRIPTS\Scraping_Logs"
+)
 os.makedirs(LOG_DIR, exist_ok=True)
+
+
 today_str = datetime.now().strftime("%Y%m%d")
 log_path = os.path.join(LOG_DIR, f"scraping_{today_str}.log")
 

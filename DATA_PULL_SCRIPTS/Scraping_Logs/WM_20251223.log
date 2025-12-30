@@ -1,0 +1,22 @@
+[2025-12-23 16:45:06] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2025-12-23 17:37:20] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-23 17:37:20] ERROR: exception while running script.
+[2025-12-23 17:37:20] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 261, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 73, in <module>
+    main()
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 43, in main
+    with REGISTRY.open("r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VLCOLL~1\AppData\Local\R-RETI~1\R-RETI~1\pyenv\PYENV-~1\versions\312~1.7\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\vlcollier\\GITHUB_PUSH\\Alaska_Food\\DATA_PULL_SCRIPTS\\WM\\wm_snapshot_registry.csv'
+
+[2025-12-23 17:45:06] START: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2025-12-23 17:45:07] SUCCESS.
