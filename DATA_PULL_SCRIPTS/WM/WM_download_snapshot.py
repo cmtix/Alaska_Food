@@ -42,7 +42,13 @@ OUT_FILE = OUT_DIR / f"{SNAPSHOT_ID}.json"
 # BRIGHT DATA SNAPSHOT DOWNLOAD URL
 # ======================================================
 
-URL = f"https://api.brightdata.com/datasets/v3/snapshot/{SNAPSHOT_ID}?format=json"
+FORMAT = os.getenv("WM_SNAPSHOT_FORMAT", "csv").lower()
+
+URL = (
+    f"https://api.brightdata.com/datasets/v3/snapshot/"
+    f"{SNAPSHOT_ID}?format={FORMAT}"
+)
+
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}"
