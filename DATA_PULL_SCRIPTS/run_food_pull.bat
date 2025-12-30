@@ -70,13 +70,15 @@ set "RUN_FM=FALSE"
 set "RUN_WM=TRUE"
 
 REM ===============================================================
-REM WALMART MODE (CHOOSE ONE)
+REM  WALMART MODE (CHOOSE ONE)
 REM   PULL          = trigger new Bright Data snapshot
 REM   DOWNLOAD      = download snapshot via Bright Data API
 REM   IMPORT_MANUAL = clean/merge manually downloaded CSV+JSON
 REM ===============================================================
 
 set "WM_MODE=DOWNLOAD"
+set WM_SNAPSHOT_FORMAT=csv
+
 
 REM ---------- KROGER CREDENTIALS (ONLY NEEDED IF RUN_FM=TRUE) ----
 
