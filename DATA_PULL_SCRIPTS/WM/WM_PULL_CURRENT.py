@@ -68,7 +68,7 @@ def trigger_snapshot():
     return snapshot_id
 
     
-    
+# THIS loads search
     
 def load_search_file(path):
     items = []
