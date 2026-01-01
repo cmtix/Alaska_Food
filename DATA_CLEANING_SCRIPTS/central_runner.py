@@ -16,8 +16,10 @@ Reentrancy protection:
 from __future__ import annotations
 
 import os
-import sys
-import subprocess
+
+
+from schema import MASTER_COLS
+
 import argparse
 import time
 import traceback
@@ -31,6 +33,9 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 # NEW IMPORT ---------------------------------------------------------
 from prebuild_missing_store_months import ensure_cleaned_for_all_raw
+
+# Absolute path to this script (for debugging which copy is being executed)
+CENTRAL_RUNNER_PATH = Path(__file__).resolve()
 
 # --------------------------------------------------------------------
 
@@ -79,7 +84,6 @@ def _fmt_secs(sec: float) -> str:
     s = sec - m * 60
     return f"{m:02d}m {s:05.2f}s"
 
-# Write to log
 
 # --------------------------------------------------------------------
 # (existing helpers omitted for brevity—unchanged)
@@ -403,6 +407,9 @@ def main() -> None:
     CLEAN_ROOT = Path(args.clean_root)
     CROSSWALK_PATH = Path(args.crosswalk)
     CENTRAL_LOG = Path(args.log)
+
+    # Confirm which central_runner.py is actually being executed
+    log_line(CENTRAL_LOG, f"central_runner file: {CENTRAL_RUNNER_PATH}")
 
     LOG_ROOT = CENTRAL_LOG.parent
     LOG_ROOT.mkdir(parents = True, exist_ok = True)

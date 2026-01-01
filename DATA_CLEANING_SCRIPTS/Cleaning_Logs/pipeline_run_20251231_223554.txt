@@ -1,0 +1,9 @@
+2025-12-31 22:35:54 central_runner file: C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py
+2025-12-31 22:35:54 Python interpreter: C:\Users\vlcollier\env\Scripts\python.exe
+2025-12-31 22:35:54 Central runner start: 2025-12-31 22:35:54.901129
+2025-12-31 22:35:54 RAW_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA
+2025-12-31 22:35:54 CLEAN_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA
+2025-12-31 22:35:54 CROSSWALK_PATH: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv
+2025-12-31 22:35:54 Central roots initialized
+2025-12-31 22:35:54 [PRECHECK] Ensuring RAW files -> CLEANED equivalents
+2025-12-31 22:35:55 [LOCK] Another central_runner appears to be running. Exiting.
