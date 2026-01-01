@@ -18,7 +18,10 @@ from central_runner import read_crosswalk_generic
 from central_runner import finalize_common_fields
 from central_runner import parse_folder_tag
 from central_runner import log_line
-from central_runner import MASTER_COLS
+
+
+from schema import MASTER_COLS
+
 
 def _p(s: str) -> re.Pattern:
     return re.compile(s, re.IGNORECASE)
@@ -34,15 +37,13 @@ FM_MAP["STORE_ID"] = _p(r"^STORE_ID$|^storeId$|^location_id$|^location\.id$|^sto
 FM_MAP["HOME_STORE_NAME"] = _p(r"^home_store_name$|^HOME_STORE_NAME$")
 FM_MAP["SIZE"] = _p(r"^SIZE$|^size$")
 
-def choose_source_file(folder: Path) -> Optional[Path]:
+def list_source_files(folder: Path) -> List[Path]:
     cands = []
     for p in folder.iterdir():
         if p.is_file() and p.suffix.lower() in [".csv", ".json"]:
             cands.append(p)
-    if len(cands) == 0:
-        return None
-    cands.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-    return cands[0]
+    cands.sort(key = lambda x: x.stat().st_mtime, reverse = True)
+    return cands
 
 def reduce_with_map(rows: List[Dict[str, Any]], mapping: Dict[str, re.Pattern]) -> List[Dict[str, Any]]:
     if len(rows) == 0:
@@ -85,32 +86,44 @@ def process_subfolder(sub: Path,
     if yy_mm is None:
         log_line(log_path, "[FM][SKIP] " + tag)
         return None
-    src = choose_source_file(sub)
-    if src is None:
-        log_line(log_path, "[FM][SKIP] No file in " + tag)
+
+    sources = [
+        p for p in sub.iterdir()
+        if p.is_file() and p.suffix.lower() in [".csv", ".json"]
+    ]
+
+    if not sources:
+        log_line(log_path, "[FM][SKIP] No files in " + tag)
         return yy_mm
 
-    if src.suffix.lower() == ".csv":
-        rows = read_csv_rows(src)
-    else:
-        rows = read_json_rows(src)
+    all_rows: List[Dict[str, Any]] = []
+    for src in sorted(sources, key=lambda x: x.name):
+        if src.suffix.lower() == ".csv":
+            part = read_csv_rows(src)
+        else:
+            part = read_json_rows(src)
+        if part:
+            all_rows.extend(part)
 
-    rows = upper_headers(rows)
+    if not all_rows:
+        log_line(log_path, "[FM][SKIP] No rows in " + tag)
+        return yy_mm
+
+    rows = upper_headers(all_rows)
     override_pd = pull_date_from_folder_tag(tag)
-    rows = ensure_pull_date(rows, src, override_pd)
+    rows = ensure_pull_date(rows, sources[0], override_pd)
 
-    # (optional) if you really want to stamp the raw rows too:
     for r in rows:
         r["HOME_STORE_NAME"] = "FM"
 
     mapped = reduce_with_map(rows, mapping)
     for r in mapped:
         finalize_common_fields(r, list(rows[0].keys()), "FM", crosswalk, "AK")
+
     key = ("FM", yy_mm)
-    if key not in monthly:
-        monthly[key] = []
-    monthly[key].extend(mapped)
-    log_line(log_path, f"[FM][ACCUM] {tag}: +{len(mapped)}")
+    monthly.setdefault(key, []).extend(mapped)
+    log_line(log_path, f"[FM][ACCUM] {tag}: +{len(mapped)} rows")
+
     return yy_mm
 
 

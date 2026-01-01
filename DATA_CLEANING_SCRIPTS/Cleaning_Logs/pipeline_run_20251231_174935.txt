@@ -1,0 +1,20 @@
+Python interpreter: C:\Users\vlcollier\env\Scripts\python.exe
+Central runner start: 2025-12-31 17:49:35.570643
+RAW_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA
+CLEAN_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA
+CROSSWALK_PATH: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv
+Central roots initialized
+Traceback (most recent call last):
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 489, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 439, in main
+    log_line(CENTRAL_LOG, "[PRECHECK] Ensuring RAW files \u2192 CLEANED equivalents")
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 50, in log_line
+    print(line)
+    ~~~~~^^^^^^
+  File "C:\Users\vlcollier\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 30: character maps to <undefined>

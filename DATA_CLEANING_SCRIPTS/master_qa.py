@@ -31,8 +31,6 @@ a simple HTML "QA site" page linking to all outputs.
 """
 
 from __future__ import annotations
-
-import sys
 import json
 import argparse
 from pathlib import Path
@@ -455,12 +453,9 @@ def _write_static_plot(col_miss_df: pd.DataFrame, qa_dir: Path, tag: str) -> Pat
     return plot_path
 
 
-def _write_html_site(qa_dir: Path, qa_site_dir: Path, tag: str, plot_path: Path) -> Path:
+def _write_html_site(qa_dir: Path, qa_site_dir: Path, tag: str, plot_path: Optional[Path] = None) -> Path:
     qa_site_dir.mkdir(parents = True, exist_ok = True)
     html_path = qa_site_dir / f"MASTER_QA_site_{tag}.html"
-
-    # Relative path from site dir to QA PNG
-    rel_plot = Path("..") / qa_dir.name / plot_path.name
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -477,7 +472,6 @@ def _write_html_site(qa_dir: Path, qa_site_dir: Path, tag: str, plot_path: Path)
 
   <h2 class="h4 mt-4">Missing by Column</h2>
   <p><a href="../{qa_dir.name}/QA_missing_by_column_{tag}.csv">Download CSV</a></p>
-  <img src="{rel_plot.as_posix()}" alt="Missing by column" class="img-fluid border rounded">
 
   <h2 class="h4 mt-4">Missingness Summary</h2>
   <ul>
@@ -520,7 +514,6 @@ def run_master_qa(
 
         manifest = json.loads(Path(manifest_path).read_text(encoding = "utf-8"))
         tag = manifest["build_tag"]
-        build_dir = Path(manifest["build_dir"])
         qa_dir = Path(manifest["qa_dir"])
         qa_site_dir = Path(manifest["qa_site_dir"])
         panel_csv = Path(manifest["panel_csv"])
@@ -529,8 +522,8 @@ def run_master_qa(
 
         df = _read_df(panel_csv)
         df = _derive_panel_date(df)
-
         qa = _write_qa_csvs(df, qa_dir, tag)
+        # Plot generation is optional; HTML does not embed a graph (per handoff requirement)
         plot_path = _write_static_plot(qa["col_miss_df"], qa_dir, tag)
         html_path = _write_html_site(qa_dir, qa_site_dir, tag, plot_path)
 

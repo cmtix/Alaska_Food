@@ -7,6 +7,8 @@ from typing import Dict
 from typing import List
 from typing import Optional
 from typing import Tuple
+from schema import MASTER_COLS
+
 
 def _p(s: str) -> re.Pattern:
     return re.compile(s, re.IGNORECASE)
@@ -57,17 +59,13 @@ def yy_mm_from_file(name: str) -> Optional[str]:
         return f"{m2.group(1)[-2:]}_{m2.group(2)}"
     return None
 
-def choose_source_file(folder: Path) -> Optional[Path]:
+def list_source_files(folder: Path) -> List[Path]:
     cands = []
     for p in folder.iterdir():
-        if not p.is_file():
-            continue
-        if p.suffix.lower() in [".csv", ".json", ".txt"]:
+        if p.is_file() and p.suffix.lower() in [".csv", ".json"]:
             cands.append(p)
-    if len(cands) == 0:
-        return None
-    cands.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-    return cands[0]
+    cands.sort(key = lambda x: x.stat().st_mtime, reverse = True)
+    return cands
 
 def reduce_with_map(rows: List[Dict[str, Any]],
                     mapping: Dict[str, re.Pattern],
@@ -167,20 +165,23 @@ def process_subfolder(sub: Path,
     if yy_mm is None:
         log_line(f"[CS][SKIP] Folder name not recognized: {tag}")
         return None
-    src = choose_source_file(sub)
-    if src is None:
+    srcs = list_source_files(sub)
+    if len(srcs) == 0:
         log_line(f"[CS][SKIP] No usable file in {tag}")
         return yy_mm
-    return _process_any(
-        src=src,
-        tag=tag,
-        yy_mm=yy_mm,
-        mapping=mapping,
-        crosswalk=crosswalk,
-        monthly=monthly,
-        log_line=log_line,
-        helpers=helpers
-    )
+    for src in srcs:
+        yy_mm = _process_any(
+            src=src,
+            tag=tag,
+            yy_mm=yy_mm,
+            mapping=mapping,
+            crosswalk=crosswalk,
+            monthly=monthly,
+            log_line=log_line,
+            helpers=helpers
+        )
+    return yy_mm
+
 
 def run_cs(log_root: Path,
            raw_root: Path,
@@ -196,7 +197,7 @@ def run_cs(log_root: Path,
     from central_runner import read_crosswalk_generic
     from central_runner import finalize_common_fields
     from central_runner import log_line as central_log
-    from central_runner import MASTER_COLS
+    
 
     def log_line_local(msg: str) -> None:
         central_log(central_log_path, msg)

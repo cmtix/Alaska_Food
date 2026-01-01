@@ -1,0 +1,11 @@
+2025-12-31 22:14:21 Python interpreter: C:\Users\vlcollier\env\Scripts\python.exe
+2025-12-31 22:14:21 Central runner start: 2025-12-31 22:14:21.485769
+2025-12-31 22:14:21 RAW_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA
+2025-12-31 22:14:21 CLEAN_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA
+2025-12-31 22:14:21 CROSSWALK_PATH: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv
+2025-12-31 22:14:21 Central roots initialized
+2025-12-31 22:14:21 [PRECHECK] Ensuring RAW files -> CLEANED equivalents
+2025-12-31 22:14:22 [PIPELINE] START
+2025-12-31 22:14:22 [ACC_RUNNER] START
+2025-12-31 22:14:22 [XWALK] Loaded rows: 69 keys: 68
+2025-12-31 22:14:33 [ACC][ACCUM] ACC_24_01: +283871 rows

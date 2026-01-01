@@ -12,8 +12,13 @@ Reentrancy protection:
 - Wrapped in main() + __name__ guard
 - File lock in LOG_ROOT to prevent accidental double-runs (e.g., autoreload)
 """
-
+# Note: future must always be at the top
 from __future__ import annotations
+
+import os
+import sys
+import subprocess
+import argparse
 import time
 import traceback
 import csv
@@ -25,32 +30,33 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 # NEW IMPORT ---------------------------------------------------------
-from ensure_cleaned_store_months import ensure_cleaned_for_all_raw
+from prebuild_missing_store_months import ensure_cleaned_for_all_raw
+
 # --------------------------------------------------------------------
 
-# ---------- Roots and logging ----------
+# ---------- Roots and logging (configured in main via BAT args) ----------
 
-RAW_ROOT = Path(
-    r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA"
-)
 
-CLEAN_ROOT = Path(
-    r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA"
-)
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="ISER Food Pricing central runner")
+    p.add_argument("--raw-root", required=True)
+    p.add_argument("--clean-root", required=True)
+    p.add_argument("--crosswalk", required=True)
+    p.add_argument("--log", required=False)
+    args = p.parse_args()
 
-LOG_ROOT = Path(
-    r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\LOGS"
-)
+    # Fallback to BAT-provided PIPELINE_LOG if --log not passed
+    if args.log is None:
+        env_log = os.environ.get("PIPELINE_LOG")
+        if not env_log:
+            raise RuntimeError(
+                "No log file provided. Pass --log or set PIPELINE_LOG in the BAT."
+            )
+        args.log = env_log
 
-CROSSWALK_PATH = Path(
-    r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv"
-)
+    return args
 
-LOG_ROOT.mkdir(parents=True, exist_ok=True)
-CLEAN_ROOT.mkdir(parents=True, exist_ok=True)
 
-CENTRAL_LOG = LOG_ROOT / f"central_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
-LOCK_PATH = LOG_ROOT / "central_runner.lock"
 
 
 def log_line(path: Path, msg: str) -> None:
@@ -73,6 +79,7 @@ def _fmt_secs(sec: float) -> str:
     s = sec - m * 60
     return f"{m:02d}m {s:05.2f}s"
 
+# Write to log
 
 # --------------------------------------------------------------------
 # (existing helpers omitted for brevity—unchanged)
@@ -239,38 +246,6 @@ def ensure_pull_date(rows: List[Dict[str, Any]], file_path: Path, override_value
 
 # ---------- field post-processing ----------
 
-MASTER_COLS = [
-    "PULL_DATE",
-    "HOME_STORE_NAME",
-    "STORE_ID",
-    "STORE_NAME",
-    "ADDRESS",
-    "CITY",
-    "STATE",
-    "ZIP",
-    "STORE_REGION",
-    "LONGITUDE",
-    "LATITUDE",
-    "PRIMARY_STORE_KEY",
-    "PRIMARY_KEY",
-    "UPC",
-    "SKU",
-    "SKU_DESCRIPTION",
-    "SIZE",
-    "PRICE",
-    "INTERNAL_PROD_CODE",
-    "MONTH",
-    "YEAR",
-    "MONTH_YEAR",
-    "SALES_TAX_CITY_FLAG",
-    "SALES_TAX_FED_FLAG",
-    "SALES_TAX_MUNI_FLAG",
-    "SALES_TAX_FLAT_FLAG",
-    "SNAP_FLAG",
-    "ITEM_WEIGHT",
-    "FREIGHT_TYPE"
-]
-
 
 SIZE_PAT = re.compile(
     r"(?:(\d+(?:\.\d+)?)\s*(OZ|FL\s*OZ|LB|L|ML|G|KG|CT|EA|QT|PT|GAL))"
@@ -389,14 +364,20 @@ def finalize_common_fields(row: Dict[str, Any],
 
 # ---------- dynamic runner execution ----------
 
-def _try_run(module_name: str, func_name: str, central_log_path: Path) -> tuple[bool, float]:
+def _try_run(module_name: str,
+             func_name: str,
+             log_root: Path,
+             raw_root: Path,
+             clean_root: Path,
+             crosswalk_path: Path,
+             central_log_path: Path) -> tuple[bool, float]:
     phase = module_name.upper()
     start = _now()
     log_line(central_log_path, f"[{phase}] START")
     try:
         mod = importlib.import_module(module_name)
         fn = getattr(mod, func_name)
-        fn(LOG_ROOT, RAW_ROOT, CLEAN_ROOT, CROSSWALK_PATH, central_log_path)
+        fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
         elapsed = _now() - start
         log_line(central_log_path, f"[{phase}] SUCCESS elapsed={_fmt_secs(elapsed)}")
         return True, elapsed
@@ -415,6 +396,20 @@ def _try_run(module_name: str, func_name: str, central_log_path: Path) -> tuple[
 
 def main() -> None:
     import sys
+
+    args = parse_args()
+
+    RAW_ROOT = Path(args.raw_root)
+    CLEAN_ROOT = Path(args.clean_root)
+    CROSSWALK_PATH = Path(args.crosswalk)
+    CENTRAL_LOG = Path(args.log)
+
+    LOG_ROOT = CENTRAL_LOG.parent
+    LOG_ROOT.mkdir(parents = True, exist_ok = True)
+    CLEAN_ROOT.mkdir(parents = True, exist_ok = True)
+
+    LOCK_PATH = LOG_ROOT / "central_runner.lock"
+
     log_line(CENTRAL_LOG, f"Python interpreter: {sys.executable}")
     log_line(CENTRAL_LOG, f"Central runner start: {datetime.now()}")
     log_line(CENTRAL_LOG, f"RAW_ROOT: {RAW_ROOT}")
@@ -425,7 +420,8 @@ def main() -> None:
     # -------------------------------------------------------------
     # NEW STEP 0 — ENSURE RAW FILES ARE IMPORTED IF CLEANED MISSING
     # -------------------------------------------------------------
-    log_line(CENTRAL_LOG, "[PRECHECK] Ensuring RAW files → CLEANED equivalents")
+    log_line(CENTRAL_LOG, "[PRECHECK] Ensuring RAW files -> CLEANED equivalents")
+
     try:
         ensure_cleaned_for_all_raw(RAW_ROOT, CLEAN_ROOT, CENTRAL_LOG)
     except Exception as e:
@@ -447,13 +443,13 @@ def main() -> None:
         total_start = _now()
         log_line(CENTRAL_LOG, "[PIPELINE] START")
 
-        acc_ok, acc_t = _try_run("acc_runner", "run_acc", CENTRAL_LOG)
-        cs_ok, cs_t = _try_run("cs_runner", "run_cs", CENTRAL_LOG)
-        fm_ok, fm_t = _try_run("fm_runner", "run_fm", CENTRAL_LOG)
-        wm_ok, wm_t = _try_run("wm_runner", "run_wm", CENTRAL_LOG)
+        acc_ok, acc_t = _try_run("acc_runner", "run_acc", LOG_ROOT, RAW_ROOT, CLEAN_ROOT, CROSSWALK_PATH, CENTRAL_LOG)
+        cs_ok, cs_t = _try_run("cs_runner", "run_cs", LOG_ROOT, RAW_ROOT, CLEAN_ROOT, CROSSWALK_PATH, CENTRAL_LOG)
+        fm_ok, fm_t = _try_run("fm_runner", "run_fm", LOG_ROOT, RAW_ROOT, CLEAN_ROOT, CROSSWALK_PATH, CENTRAL_LOG)
+        wm_ok, wm_t = _try_run("wm_runner", "run_wm", LOG_ROOT, RAW_ROOT, CLEAN_ROOT, CROSSWALK_PATH, CENTRAL_LOG)
 
         log_line(CENTRAL_LOG, "Attempting MASTER assembly")
-        master_ok, master_t = _try_run("master_assembly", "run_master", CENTRAL_LOG)
+        master_ok, master_t = _try_run("master_assembly", "run_master", LOG_ROOT, RAW_ROOT, CLEAN_ROOT, CROSSWALK_PATH, CENTRAL_LOG)
 
         summary = [
             f"ACC:{'OK' if acc_ok else 'X'}({_fmt_secs(acc_t)})",

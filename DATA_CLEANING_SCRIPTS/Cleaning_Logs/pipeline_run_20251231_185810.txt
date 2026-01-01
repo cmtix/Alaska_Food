@@ -1,0 +1,256 @@
+Python interpreter: C:\Users\vlcollier\env\Scripts\python.exe
+Central runner start: 2025-12-31 18:58:10.624500
+RAW_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA
+CLEAN_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA
+CROSSWALK_PATH: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv
+Central roots initialized
+[PRECHECK] Ensuring RAW files -> CLEANED equivalents
+[PIPELINE] START
+[ACC_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[ACC_RUNNER] FAIL elapsed=00m 00.01s error=NameError: name 'build_column_mapping' is not defined
+[ACC_RUNNER] TRACEBACK >>>
+[ACC_RUNNER] Traceback (most recent call last):
+[ACC_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 396, in _try_run
+[ACC_RUNNER]     fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
+[ACC_RUNNER]     ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ACC_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\acc_runner.py", line 170, in run_acc
+[ACC_RUNNER]     mapping = build_column_mapping()
+[ACC_RUNNER]               ^^^^^^^^^^^^^^^^^^^^
+[ACC_RUNNER] NameError: name 'build_column_mapping' is not defined
+[ACC_RUNNER] TRACEBACK <<<
+[CS_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[CS][ACCUM] CS_23_06: +100 rows from CS_23_06.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_06.csv (100 rows)
+[CS][ACCUM] CS_23_07: +99 rows from CS_23_07.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_07.csv (99 rows)
+[CS][ACCUM] CS_23_08: +99 rows from CS_23_08.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_08.csv (99 rows)
+[CS][ACCUM] CS_23_09: +50 rows from CS_23_09.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_09.csv (50 rows)
+[CS][ACCUM] CS_23_10: +96 rows from CS_23_10.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_10.csv (96 rows)
+[CS][ACCUM] CS_23_11: +100 rows from CS_23_11.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_11.csv (100 rows)
+[CS][ACCUM] CS_23_12: +100 rows from CS_23_12.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_12.csv (100 rows)
+[CS][ACCUM] CS_24_01: +100 rows from CS_24_01.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_01.csv (100 rows)
+[CS][ACCUM] CS_24_02: +100 rows from CS_24_02.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_02.csv (100 rows)
+[CS][ACCUM] CS_24_03: +100 rows from CS_24_03.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_03.csv (100 rows)
+[CS][ACCUM] CS_24_04: +100 rows from CS_24_04.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_04.csv (100 rows)
+[CS][ACCUM] CS_24_05: +376 rows from CS_24_05.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_05.csv (376 rows)
+[CS][ACCUM] CS_24_06: +227 rows from CS_24_06.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_06.csv (227 rows)
+[CS][ACCUM] CS_24_07: +234 rows from CS_24_07.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_07.csv (234 rows)
+[CS][ACCUM] CS_24_08: +216 rows from CS_24_08.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_08.csv (216 rows)
+[CS][ACCUM] CS_24_09: +216 rows from CS_24_09.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_09.csv (216 rows)
+[CS][ACCUM] CS_24_10: +540 rows from CS_24_10.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_10.csv (540 rows)
+[CS][ACCUM] CS_24_11: +604 rows from CS_24_11.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_11.csv (604 rows)
+[CS][ACCUM] CS_24_12: +587 rows from CS_24_12.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_12.csv (587 rows)
+[CS][ACCUM] CS_25_01: +811 rows from CS_25_01.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_01.csv (811 rows)
+[CS][ACCUM] CS_25_02: +1737 rows from CS_25_02.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_02.csv (1737 rows)
+[CS][ACCUM] CS_25_03: +1748 rows from CS_25_03.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_03.csv (1748 rows)
+[CS][ACCUM] CS_25_04: +1738 rows from CS_25_04.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_04.csv (1738 rows)
+[CS][ACCUM] CS_25_05: +1887 rows from CS_25_05.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_05.csv (1887 rows)
+[CS][ACCUM] CS_25_06: +1881 rows from CS_25_06.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_06.csv (1881 rows)
+[CS][ACCUM] CS_25_07: +1836 rows from CS_25_07.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_07.csv (1836 rows)
+[CS][ACCUM] CS_25_08: +1964 rows from CS_25_08.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_08.csv (1964 rows)
+[CS][ACCUM] CS_25_09: +1967 rows from CS_25_09.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_09.csv (1967 rows)
+[CS][ACCUM] CS_25_10: +1937 rows from CS_25_10.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_10.csv (1937 rows)
+[CS][ACCUM] CS_25_11: +1956 rows from CS_25_11.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_11.csv (1956 rows)
+[CS][ACCUM] CS_25_12: +1962 rows from CS_25_12.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_12.csv (1962 rows)
+[CS_RUNNER] SUCCESS elapsed=00m 01.99s
+[FM_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[FM][ACCUM] FM_23_03: +3136 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_03.csv (3136)
+[FM][ACCUM] FM_23_04: +378 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_04.csv (378)
+[FM][ACCUM] FM_23_05: +378 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_05.csv (378)
+[FM][ACCUM] FM_23_06: +234 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_06.csv (234)
+[FM][ACCUM] FM_23_07: +232 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_07.csv (232)
+[FM][ACCUM] FM_23_08: +252 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_08.csv (252)
+[FM][ACCUM] FM_23_09: +252 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_09.csv (252)
+[FM][ACCUM] FM_23_10: +246 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_10.csv (246)
+[FM][ACCUM] FM_23_11: +234 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_11.csv (234)
+[FM][ACCUM] FM_23_12: +234 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_23_12.csv (234)
+[FM][ACCUM] FM_24_01: +234 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_01.csv (234)
+[FM][ACCUM] FM_24_02: +225 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_02.csv (225)
+[FM][ACCUM] FM_24_03: +224 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_03.csv (224)
+[FM][ACCUM] FM_24_04: +1379 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_04.csv (1379)
+[FM][ACCUM] FM_24_05: +1364 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_05.csv (1364)
+[FM][ACCUM] FM_24_06: +1371 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_06.csv (1371)
+[FM][ACCUM] FM_24_07: +1375 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_07.csv (1375)
+[FM][ACCUM] FM_24_08: +1361 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_08.csv (1361)
+[FM][ACCUM] FM_24_09: +1361 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_09.csv (1361)
+[FM][ACCUM] FM_24_10: +1362 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_10.csv (1362)
+[FM][ACCUM] FM_24_11: +1383 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_11.csv (1383)
+[FM][ACCUM] FM_24_12: +1395 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_24_12.csv (1395)
+[FM][ACCUM] FM_25_01: +1713 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_01.csv (1713)
+[FM][ACCUM] FM_25_02: +2873 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_02.csv (2873)
+[FM][ACCUM] FM_25_03: +2853 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_03.csv (2853)
+[FM][ACCUM] FM_25_04: +2836 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_04.csv (2836)
+[FM][ACCUM] FM_25_05: +3323 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_05.csv (3323)
+[FM][ACCUM] FM_25_06: +3294 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_06.csv (3294)
+[FM][ACCUM] FM_25_07: +3285 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_07.csv (3285)
+[FM][ACCUM] FM_25_08: +3273 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_08.csv (3273)
+[FM][ACCUM] FM_25_09: +3298 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_09.csv (3298)
+[FM][ACCUM] FM_25_10: +1755 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_10.csv (1755)
+[FM][ACCUM] FM_25_11: +1755 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_11.csv (1755)
+[FM][ACCUM] FM_25_12: +1755 rows
+[FM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\FM_25_12.csv (1755)
+[FM_RUNNER] SUCCESS elapsed=00m 04.61s
+[WM_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[WM][ACCUM] WM_25_10: +6144 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_10.csv (6144)
+[WM][ACCUM] WM_25_09: +8950 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_09.csv (8950)
+[WM][ACCUM] WM_25_08: +1623737 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_08.csv (1623737)
+[WM][ACCUM] WM_25_07: +104154 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_07.csv (104154)
+[WM][ACCUM] WM_25_06: +94717 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_06.csv (94717)C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py:79: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  d = pd.to_datetime(df[c], errors = "coerce")
+
+[WM][ACCUM] WM_25_05: +102475 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_05.csv (102475)
+[WM][ACCUM] WM_25_04: +24841 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_04.csv (24841)
+[WM][ACCUM] WM_25_03: +23866 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_03.csv (23866)
+[WM][ACCUM] WM_25_02: +23625 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_02.csv (23625)
+[WM][ACCUM] WM_25_01: +13897 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_01.csv (13897)
+[WM][ACCUM] WM_24_12: +11190 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_12.csv (11190)
+[WM][ACCUM] WM_24_11: +11202 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_11.csv (11202)
+[WM][ACCUM] WM_24_10: +11390 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_10.csv (11390)
+[WM][ACCUM] WM_24_09: +11013 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_09.csv (11013)
+[WM][ACCUM] WM_24_08: +11516 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_08.csv (11516)
+[WM][ACCUM] WM_24_07: +10789 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_07.csv (10789)
+[WM][ACCUM] WM_24_06: +10861 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_06.csv (10861)
+[WM][ACCUM] WM_24_05: +10739 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_05.csv (10739)
+[WM][ACCUM] WM_24_04: +11790 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_04.csv (11790)
+[WM][ACCUM] WM_24_03: +4468 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_03.csv (4468)
+[WM][ACCUM] WM_24_02: +2000 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_02.csv (2000)
+[WM][ACCUM] WM_24_01: +3288 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_24_01.csv (3288)
+[WM][ACCUM] WM_23_12: +2650 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_12.csv (2650)
+[WM][ACCUM] WM_23_11: +3340 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_11.csv (3340)
+[WM][ACCUM] WM_23_10: +3514 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_10.csv (3514)
+[WM][ACCUM] WM_23_09: +3582 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_09.csv (3582)
+[WM][ACCUM] WM_23_08: +3604 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_08.csv (3604)
+[WM][ACCUM] WM_23_07: +3458 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_07.csv (3458)
+[WM][ACCUM] WM_23_06: +3580 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_06.csv (3580)
+[WM][ACCUM] WM_23_05: +3404 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_05.csv (3404)
+[WM][ACCUM] WM_23_04: +3510 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_04.csv (3510)
+[WM][ACCUM] WM_23_03: +1679 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_23_03.csv (1679)
+[WM][ACCUM] WM_25_11: +6229 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_11.csv (6229)
+[WM][ACCUM] WM_25_12: +1007166 rows
+[WM][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\WM_25_12.csv (1007166)
+[WM_RUNNER] SUCCESS elapsed=12m 19.58s
+Attempting MASTER assembly
+[MASTER_ASSEMBLY] START
+[1;34mUpgrade to ydata-sdk[0m
+Improve your data and profiling with ydata-sdk, featuring data quality scoring, redundancy detection, outlier identification, text validation, and synthetic data generation.
+Register at https://ydata.ai/register
+[MASTER] BUILD 20251231_v06 -> G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\MASTER_builds\20251231_v06
+[MASTER] Reading 133 cleaned file(s)
+[MASTER_ASSEMBLY] FAIL elapsed=01m 14.53s error=ValueError: MASTER schema violation: missing columns ['INTERNAL_PROD_CODE']
+[MASTER_ASSEMBLY] TRACEBACK >>>
+[MASTER_ASSEMBLY] Traceback (most recent call last):
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 396, in _try_run
+[MASTER_ASSEMBLY]     fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
+[MASTER_ASSEMBLY]     ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py", line 305, in run_master
+[MASTER_ASSEMBLY]     main(CLEAN_ROOT, central_log_path)
+[MASTER_ASSEMBLY]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py", line 198, in main
+[MASTER_ASSEMBLY]     master_long = enforce_master_schema_strict(master_long)
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py", line 51, in enforce_master_schema_strict
+[MASTER_ASSEMBLY]     raise ValueError(
+[MASTER_ASSEMBLY]         f"MASTER schema violation: missing columns {missing_cols}"
+[MASTER_ASSEMBLY]     )
+[MASTER_ASSEMBLY] ValueError: MASTER schema violation: missing columns ['INTERNAL_PROD_CODE']
+[MASTER_ASSEMBLY] TRACEBACK <<<
+[PIPELINE] SUMMARY ACC:X(00m 00.01s) CS:OK(00m 01.99s) FM:OK(00m 04.61s) WM:OK(12m 19.58s) MASTER:X(01m 14.53s)
+[PIPELINE] COMPLETE elapsed=13m 42.18s

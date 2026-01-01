@@ -1,0 +1,163 @@
+Python interpreter: C:\Users\vlcollier\env\Scripts\python.exe
+Central runner start: 2025-12-31 17:51:32.636781
+RAW_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA
+CLEAN_ROOT: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA
+CROSSWALK_PATH: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv
+Central roots initialized
+[PRECHECK] Ensuring RAW files -> CLEANED equivalents
+[PIPELINE] START
+[ACC_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[ACC_RUNNER] FAIL elapsed=00m 00.03s error=NameError: name 'choose_source_file' is not defined
+[ACC_RUNNER] TRACEBACK >>>
+[ACC_RUNNER] Traceback (most recent call last):
+[ACC_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 396, in _try_run
+[ACC_RUNNER]     fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
+[ACC_RUNNER]     ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ACC_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\acc_runner.py", line 230, in run_acc
+[ACC_RUNNER]     recovery_acc_month(sub, crosswalk, monthly, central_log_path)
+[ACC_RUNNER]     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ACC_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\acc_runner.py", line 119, in recovery_acc_month
+[ACC_RUNNER]     src = choose_source_file(raw_month_dir)
+[ACC_RUNNER]           ^^^^^^^^^^^^^^^^^^
+[ACC_RUNNER] NameError: name 'choose_source_file' is not defined. Did you mean: 'list_source_files'?
+[ACC_RUNNER] TRACEBACK <<<
+[CS_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[CS][ACCUM] CS_23_06: +100 rows from CS_23_06.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_06.csv (100 rows)
+[CS][ACCUM] CS_23_07: +99 rows from CS_23_07.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_07.csv (99 rows)
+[CS][ACCUM] CS_23_08: +99 rows from CS_23_08.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_08.csv (99 rows)
+[CS][ACCUM] CS_23_09: +50 rows from CS_23_09.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_09.csv (50 rows)
+[CS][ACCUM] CS_23_10: +96 rows from CS_23_10.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_10.csv (96 rows)
+[CS][ACCUM] CS_23_11: +100 rows from CS_23_11.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_11.csv (100 rows)
+[CS][ACCUM] CS_23_12: +100 rows from CS_23_12.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_23_12.csv (100 rows)
+[CS][ACCUM] CS_24_01: +100 rows from CS_24_01.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_01.csv (100 rows)
+[CS][ACCUM] CS_24_02: +100 rows from CS_24_02.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_02.csv (100 rows)
+[CS][ACCUM] CS_24_03: +100 rows from CS_24_03.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_03.csv (100 rows)
+[CS][ACCUM] CS_24_04: +100 rows from CS_24_04.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_04.csv (100 rows)
+[CS][ACCUM] CS_24_05: +376 rows from CS_24_05.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_05.csv (376 rows)
+[CS][ACCUM] CS_24_06: +227 rows from CS_24_06.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_06.csv (227 rows)
+[CS][ACCUM] CS_24_07: +234 rows from CS_24_07.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_07.csv (234 rows)
+[CS][ACCUM] CS_24_08: +216 rows from CS_24_08.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_08.csv (216 rows)
+[CS][ACCUM] CS_24_09: +216 rows from CS_24_09.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_09.csv (216 rows)
+[CS][ACCUM] CS_24_10: +540 rows from CS_24_10.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_10.csv (540 rows)
+[CS][ACCUM] CS_24_11: +604 rows from CS_24_11.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_11.csv (604 rows)
+[CS][ACCUM] CS_24_12: +587 rows from CS_24_12.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_24_12.csv (587 rows)
+[CS][ACCUM] CS_25_01: +811 rows from CS_25_01.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_01.csv (811 rows)
+[CS][ACCUM] CS_25_02: +1737 rows from CS_25_02.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_02.csv (1737 rows)
+[CS][ACCUM] CS_25_03: +1748 rows from CS_25_03.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_03.csv (1748 rows)
+[CS][ACCUM] CS_25_04: +1738 rows from CS_25_04.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_04.csv (1738 rows)
+[CS][ACCUM] CS_25_05: +1887 rows from CS_25_05.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_05.csv (1887 rows)
+[CS][ACCUM] CS_25_06: +1881 rows from CS_25_06.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_06.csv (1881 rows)
+[CS][ACCUM] CS_25_07: +1836 rows from CS_25_07.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_07.csv (1836 rows)
+[CS][ACCUM] CS_25_08: +1964 rows from CS_25_08.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_08.csv (1964 rows)
+[CS][ACCUM] CS_25_09: +1967 rows from CS_25_09.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_09.csv (1967 rows)
+[CS][ACCUM] CS_25_10: +1937 rows from CS_25_10.csvC:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py:52: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  d = pd.to_datetime(df[c], errors = "coerce")
+C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_qa.py:93: DtypeWarning: Columns (0,2,3,4,5,6,8,13,14,15,16,17,20,21,22,23,24,25,28,29,31,32,37,41,43,50,51,52,53,59,60,63,64,65,68,70,71,72,73,74,75,76,77,78,80,81,83,84,85,88,89,90,91,92,93,94,95,99,101,104,105,106,108,109,110,111,112,113,116,117,120,122,127,130,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,157,159,160,161,164,166,167,168,169,170,171,172,173,174,177,179,180,181,184,185,186,188,189,191,193,194,195,196,198,199,201,202,203,205,208,209,210,211,214,215,216,217) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(panel_csv)
+
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_10.csv (1937 rows)
+[CS][ACCUM] CS_25_11: +1956 rows from CS_25_11.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_11.csv (1956 rows)
+[CS][ACCUM] CS_25_12: +1962 rows from CS_25_12.csv
+[CS][WRITE] G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\CS_25_12.csv (1962 rows)
+[CS_RUNNER] SUCCESS elapsed=00m 07.01s
+[FM_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[FM_RUNNER] FAIL elapsed=00m 00.04s error=UnboundLocalError: cannot access local variable 'src' where it is not associated with a value
+[FM_RUNNER] TRACEBACK >>>
+[FM_RUNNER] Traceback (most recent call last):
+[FM_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 396, in _try_run
+[FM_RUNNER]     fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
+[FM_RUNNER]     ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[FM_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\fm_runner.py", line 135, in run_fm
+[FM_RUNNER]     yy_mm = process_subfolder(sub, FM_MAP, crosswalk, monthly, central_log_path)
+[FM_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\fm_runner.py", line 94, in process_subfolder
+[FM_RUNNER]     if src.suffix.lower() == ".csv":
+[FM_RUNNER]        ^^^
+[FM_RUNNER] UnboundLocalError: cannot access local variable 'src' where it is not associated with a value
+[FM_RUNNER] TRACEBACK <<<
+[WM_RUNNER] START
+[XWALK] Loaded rows: 69 keys: 68
+[WM_RUNNER] FAIL elapsed=00m 00.02s error=UnboundLocalError: cannot access local variable 'src' where it is not associated with a value
+[WM_RUNNER] TRACEBACK >>>
+[WM_RUNNER] Traceback (most recent call last):
+[WM_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 396, in _try_run
+[WM_RUNNER]     fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
+[WM_RUNNER]     ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WM_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\wm_runner.py", line 134, in run_wm
+[WM_RUNNER]     yy_mm = process_subfolder(sub, WM_MAP, crosswalk, monthly, central_log_path)
+[WM_RUNNER]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\wm_runner.py", line 97, in process_subfolder
+[WM_RUNNER]     if src.suffix.lower() == ".csv":
+[WM_RUNNER]        ^^^
+[WM_RUNNER] UnboundLocalError: cannot access local variable 'src' where it is not associated with a value
+[WM_RUNNER] TRACEBACK <<<
+Attempting MASTER assembly
+[MASTER_ASSEMBLY] START
+[1;34mUpgrade to ydata-sdk[0m
+Improve your data and profiling with ydata-sdk, featuring data quality scoring, redundancy detection, outlier identification, text validation, and synthetic data generation.
+Register at https://ydata.ai/register
+[MASTER] BUILD 20251231_v03 -> G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\MASTER_builds\20251231_v03
+[MASTER] Reading 133 cleaned file(s)
+[MASTER] Saved panel: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\MASTER_builds\20251231_v03\MASTER_panel_long_20251231_v03.csv
+[MASTER] Saved latest-by-key: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\MASTER_builds\20251231_v03\MASTER_latest_by_key_20251231_v03.csv
+[MASTER] Saved price wide: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\MASTER_builds\20251231_v03\MASTER_price_by_month_wide_20251231_v03.csv
+[MASTER][WARN] .fst not written. Falling back to Feather. Error: [WinError 2] The system cannot find the file specified
+[MASTER][ERROR] Feather fallback failed: ("Could not convert 'CS-99507' with type str: tried to convert to int64", 'Conversion failed for column STORE_ID with type object')
+[MASTER] Manifest: G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\CLEANED_DATA\MASTER_builds\20251231_v03\MASTER_manifest_20251231_v03.json
+2025-12-31 17:57:56 [MASTER_QA] START tag=20251231_v03
+2025-12-31 18:01:08 [MASTER_QA] FAIL elapsed=0:03:12 error=_write_html_site() missing 1 required positional argument: 'plot_path'
+[MASTER_ASSEMBLY] FAIL elapsed=09m 28.79s error=TypeError: _write_html_site() missing 1 required positional argument: 'plot_path'
+[MASTER_ASSEMBLY] TRACEBACK >>>
+[MASTER_ASSEMBLY] Traceback (most recent call last):
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\central_runner.py", line 396, in _try_run
+[MASTER_ASSEMBLY]     fn(log_root, raw_root, clean_root, crosswalk_path, central_log_path)
+[MASTER_ASSEMBLY]     ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py", line 269, in run_master
+[MASTER_ASSEMBLY]     main(CLEAN_ROOT, central_log_path)
+[MASTER_ASSEMBLY]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_assembly.py", line 242, in main
+[MASTER_ASSEMBLY]     run_master_qa(
+[MASTER_ASSEMBLY]     ~~~~~~~~~~~~~^
+[MASTER_ASSEMBLY]         builds_root = builds_root,
+[MASTER_ASSEMBLY]         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MASTER_ASSEMBLY]     ...<2 lines>...
+[MASTER_ASSEMBLY]         manifest_path = manifest_path
+[MASTER_ASSEMBLY]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MASTER_ASSEMBLY]     )
+[MASTER_ASSEMBLY]     ^
+[MASTER_ASSEMBLY]   File "C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_CLEANING_SCRIPTS\master_qa.py", line 521, in run_master_qa
+[MASTER_ASSEMBLY]     html_path = _write_html_site(qa_dir, qa_site_dir, tag)
+[MASTER_ASSEMBLY] TypeError: _write_html_site() missing 1 required positional argument: 'plot_path'
+[MASTER_ASSEMBLY] TRACEBACK <<<
+[PIPELINE] SUMMARY ACC:X(00m 00.03s) CS:OK(00m 07.01s) FM:X(00m 00.04s) WM:X(00m 00.02s) MASTER:X(09m 28.79s)
+[PIPELINE] COMPLETE elapsed=09m 40.79s

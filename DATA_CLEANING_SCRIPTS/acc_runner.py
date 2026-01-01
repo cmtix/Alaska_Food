@@ -17,39 +17,10 @@ from central_runner import pull_date_from_folder_tag
 from central_runner import read_crosswalk_generic
 from central_runner import finalize_common_fields
 from central_runner import log_line
-from central_runner import MASTER_COLS
 
-MASTER_COLS = [
-    "PULL_DATE",
-    "HOME_STORE_NAME",
-    "STORE_ID",
-    "STORE_NAME",
-    "ADDRESS",
-    "CITY",
-    "STATE",
-    "ZIP",
-    "STORE_REGION",
-    "LONGITUDE",
-    "LATITUDE",
-    "PRIMARY_STORE_KEY",
-    "PRIMARY_KEY",
-    "UPC",
-    "SKU",
-    "SKU_DESCRIPTION",
-    "SIZE",
-    "PRICE",
-    "INTERNAL_PROD_CODE",
-    "MONTH",
-    "YEAR",
-    "MONTH_YEAR",
-    "SALES_TAX_CITY_FLAG",
-    "SALES_TAX_FED_FLAG",
-    "SALES_TAX_MUNI_FLAG",
-    "SALES_TAX_FLAT_FLAG",
-    "SNAP_FLAG",
-    "ITEM_WEIGHT",
-    "FREIGHT_TYPE"
-]
+
+from schema import MASTER_COLS
+
 
 def _p(s: str) -> re.Pattern:
     return re.compile(s, re.IGNORECASE)
@@ -88,16 +59,13 @@ ACC_MAP["FREIGHT_TYPE"] = _p(r"^FREIGHT_TYPE$")
 RECOVERY_FOLDERS = set(["ACC_24_09", "ACC_24_10"])
 FOLDER_TAG = re.compile(r"^ACC_(\d{2})_(\d{2})$", re.IGNORECASE)
 
-def choose_source_file(folder: Path) -> Optional[Path]:
-    cands: List[Path] = []
+def list_source_files(folder: Path) -> List[Path]:
+    cands = []
     for p in folder.iterdir():
-        if p.is_file():
-            if p.suffix.lower() in [".csv", ".json", ".txt"]:
-                cands.append(p)
-    if len(cands) == 0:
-        return None
-    cands.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-    return cands[0]
+        if p.is_file() and p.suffix.lower() in [".csv", ".json"]:
+            cands.append(p)
+    cands.sort(key = lambda x: x.stat().st_mtime, reverse = True)
+    return cands
 
 def yy_mm_from_name(name: str) -> Optional[str]:
     m = FOLDER_TAG.match(name)
@@ -136,36 +104,6 @@ def reduce_with_map(rows: List[Dict[str, Any]],
         out.append(new_r)
     return out
 
-def recovery_acc_month(raw_month_dir: Path,
-                       crosswalk: Dict[Tuple[str, str], Dict[str, str]],
-                       monthly: Dict[Tuple[str, str], List[Dict[str, Any]]],
-                       log_path: Path) -> None:
-    tag = raw_month_dir.name
-    parts = tag.split("_")
-    if len(parts) != 3:
-        log_line(log_path, "[ACC-RECOVERY][SKIP] " + tag)
-        return
-    yy = parts[1]
-    mm = parts[2]
-    yy_mm = f"{yy}_{mm}"
-    src = choose_source_file(raw_month_dir)
-    if src is None:
-        log_line(log_path, "[ACC-RECOVERY][SKIP] No file in " + tag)
-        return
-    if src.suffix.lower() == ".csv":
-        rows = read_csv_rows(src)
-    else:
-        rows = read_json_rows(src)
-    rows = upper_headers(rows)
-    override_pd = pull_date_from_folder_tag(tag)
-    rows = ensure_pull_date(rows, src, override_pd)
-    for r in rows:
-        r["HOME_STORE_NAME"] = "ACC"
-    mapped = reduce_with_map(rows, ACC_MAP)
-    for r in mapped:
-        finalize_common_fields(r, list(rows[0].keys()), "ACC", crosswalk, "AK")
-    monthly[("ACC", yy_mm)] = mapped
-    log_line(log_path, f"[ACC-RECOVERY][MERGE] {tag}: {len(mapped)} rows")
 
 
 def process_subfolder(sub: Path,
@@ -173,73 +111,51 @@ def process_subfolder(sub: Path,
                       crosswalk: Dict[Tuple[str, str], Dict[str, str]],
                       monthly: Dict[Tuple[str, str], List[Dict[str, Any]]],
                       log_path: Path) -> Optional[str]:
-    """
-    Process a single ACC month folder.
-
-    IMPORTANT: This version reads *all* CSV / JSON / TXT files in the
-    folder and merges them so that months like ACC_24_11 and ACC_25_11,
-    which contain many store-specific CSVs, are combined into a single
-    monthly dataset.
-    """
     tag = sub.name
     yy_mm = yy_mm_from_name(tag)
     if yy_mm is None:
         log_line(log_path, "[ACC][SKIP] " + tag)
         return None
 
-    # Collect all candidate source files in this month folder
-    sources: List[Path] = []
-    for p in sub.iterdir():
-        if not p.is_file():
-            continue
-        if p.suffix.lower() in [".csv", ".json", ".txt"]:
-            sources.append(p)
+    sources = [
+        p for p in sub.iterdir()
+        if p.is_file() and p.suffix.lower() in [".csv", ".json"]
+    ]
 
     if not sources:
         log_line(log_path, "[ACC][SKIP] No files in " + tag)
         return yy_mm
 
-    # Read and concatenate rows from all sources
     all_rows: List[Dict[str, Any]] = []
     for src in sorted(sources, key=lambda x: x.name):
         if src.suffix.lower() == ".csv":
             part = read_csv_rows(src)
         else:
             part = read_json_rows(src)
-        if not part:
-            continue
-        all_rows.extend(part)
+        if part:
+            all_rows.extend(part)
 
     if not all_rows:
         log_line(log_path, "[ACC][SKIP] No rows in " + tag)
         return yy_mm
 
-    # Normalize headers and ensure PULL_DATE / HOME_STORE_NAME
     rows = upper_headers(all_rows)
     override_pd = pull_date_from_folder_tag(tag)
     rows = ensure_pull_date(rows, sources[0], override_pd)
+
     for r in rows:
-        if not r.get("HOME_STORE_NAME"):
-            r["HOME_STORE_NAME"] = "ACC"
+        r["HOME_STORE_NAME"] = "ACC"
 
-    # Apply mapping and finalize fields
     mapped = reduce_with_map(rows, mapping)
-    if not mapped:
-        log_line(log_path, "[ACC][SKIP] No mapped rows in " + tag)
-        return yy_mm
-
     for r in mapped:
         finalize_common_fields(r, list(rows[0].keys()), "ACC", crosswalk, "AK")
 
     key = ("ACC", yy_mm)
-    if key not in monthly:
-        monthly[key] = []
-    monthly[key].extend(mapped)
-    log_line(
-        log_path,
-        f"[ACC][ACCUM] {tag}: +{len(mapped)} from {len(sources)} file(s)"
-    )
+    monthly.setdefault(key, []).extend(mapped)
+    log_line(log_path, f"[ACC][ACCUM] {tag}: +{len(mapped)} rows")
+
     return yy_mm
+
 
 def run_acc(log_root: Path,
             raw_root: Path,
@@ -251,12 +167,19 @@ def run_acc(log_root: Path,
         log_line(central_log_path, "[ACC][SKIP] Missing ACC_RAW")
         return
     crosswalk = read_crosswalk_generic(crosswalk_path, central_log_path)
+    mapping = ACC_MAP
+
     monthly: Dict[Tuple[str, str], List[Dict[str, Any]]] = {}
-    # First pass: recovery folders
+    
     for sub in acc_root.iterdir():
-        if sub.is_dir():
-            if sub.name in RECOVERY_FOLDERS:
-                recovery_acc_month(sub, crosswalk, monthly, central_log_path)
+        process_subfolder(
+            sub=sub,
+            mapping=mapping,
+            crosswalk=crosswalk,
+            monthly=monthly,
+            log_path=central_log_path
+     )
+
     # Second pass: normal processing (including 24_11, 25_11 etc.)
     for sub in acc_root.iterdir():
         if not sub.is_dir():

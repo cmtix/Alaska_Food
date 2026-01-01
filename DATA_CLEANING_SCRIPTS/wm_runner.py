@@ -18,37 +18,8 @@ from central_runner import read_crosswalk_generic
 from central_runner import finalize_common_fields
 from central_runner import log_line
 
-MASTER_COLS = [
-    "PULL_DATE",
-    "HOME_STORE_NAME",
-    "STORE_ID",
-    "STORE_NAME",
-    "ADDRESS",
-    "CITY",
-    "STATE",
-    "ZIP",
-    "STORE_REGION",
-    "LONGITUDE",
-    "LATITUDE",
-    "PRIMARY_STORE_KEY",
-    "PRIMARY_KEY",
-    "UPC",
-    "SKU",
-    "SKU_DESCRIPTION",
-    "SIZE",
-    "PRICE",
-    "INTERNAL_PROD_CODE",
-    "MONTH",
-    "YEAR",
-    "MONTH_YEAR",
-    "SALES_TAX_CITY_FLAG",
-    "SALES_TAX_FED_FLAG",
-    "SALES_TAX_MUNI_FLAG",
-    "SALES_TAX_FLAT_FLAG",
-    "SNAP_FLAG",
-    "ITEM_WEIGHT",
-    "FREIGHT_TYPE"
-]
+from schema import MASTER_COLS
+
 
 def _p(s: str) -> re.Pattern:
     return re.compile(s, re.IGNORECASE)
@@ -63,16 +34,13 @@ WM_MAP["UPC"] = _p(r"^UPC$|^upc$")
 
 FOLDER_TAG = re.compile(r"^WM_(\d{2})_(\d{2})$", re.IGNORECASE)
 
-def choose_source_file(folder: Path) -> Optional[Path]:
+def list_source_files(folder: Path) -> List[Path]:
     cands = []
     for p in folder.iterdir():
-        if p.is_file():
-            if p.suffix.lower() in [".csv", ".json"]:
-                cands.append(p)
-    if len(cands) == 0:
-        return None
-    cands.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-    return cands[0]
+        if p.is_file() and p.suffix.lower() in [".csv", ".json"]:
+            cands.append(p)
+    cands.sort(key = lambda x: x.stat().st_mtime, reverse = True)
+    return cands
 
 def yy_mm_from_name(name: str) -> Optional[str]:
     m = FOLDER_TAG.match(name)
@@ -122,29 +90,46 @@ def process_subfolder(sub: Path,
     if yy_mm is None:
         log_line(log_path, "[WM][SKIP] " + tag)
         return None
-    src = choose_source_file(sub)
-    if src is None:
-        log_line(log_path, "[WM][SKIP] No file in " + tag)
+
+    sources = [
+        p for p in sub.iterdir()
+        if p.is_file() and p.suffix.lower() in [".csv", ".json"]
+    ]
+
+    if not sources:
+        log_line(log_path, "[WM][SKIP] No files in " + tag)
         return yy_mm
-    if src.suffix.lower() == ".csv":
-        rows = read_csv_rows(src)
-    else:
-        rows = read_json_rows(src)
-    rows = upper_headers(rows)
+
+    all_rows: List[Dict[str, Any]] = []
+    for src in sorted(sources, key=lambda x: x.name):
+        if src.suffix.lower() == ".csv":
+            part = read_csv_rows(src)
+        else:
+            part = read_json_rows(src)
+        if part:
+            all_rows.extend(part)
+
+    if not all_rows:
+        log_line(log_path, "[WM][SKIP] No rows in " + tag)
+        return yy_mm
+
+    rows = upper_headers(all_rows)
     override_pd = pull_date_from_folder_tag(tag)
-    rows = ensure_pull_date(rows, src, override_pd)
+    rows = ensure_pull_date(rows, sources[0], override_pd)
+
     for r in rows:
-        if not r.get("HOME_STORE_NAME"):
-            r["HOME_STORE_NAME"] = "WM"
+        r["HOME_STORE_NAME"] = "WM"
+
     mapped = reduce_with_map(rows, mapping)
     for r in mapped:
         finalize_common_fields(r, list(rows[0].keys()), "WM", crosswalk, "AK")
+
     key = ("WM", yy_mm)
-    if key not in monthly:
-        monthly[key] = []
-    monthly[key].extend(mapped)
-    log_line(log_path, f"[WM][ACCUM] {tag}: +{len(mapped)}")
+    monthly.setdefault(key, []).extend(mapped)
+    log_line(log_path, f"[WM][ACCUM] {tag}: +{len(mapped)} rows")
+
     return yy_mm
+
 
 def run_wm(log_root: Path,
            raw_root: Path,
