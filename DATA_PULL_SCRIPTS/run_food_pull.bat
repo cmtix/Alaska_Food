@@ -7,13 +7,13 @@ REM ===============================================================
 
 REM ---------- PATH SETUP (CODE REPO) -----------------------------
 
-set "REPO_ROOT=C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food"
+set "REPO_ROOT=C:\Users\cmtix\Documents\GitHub\Alaska_Food"
 set "DATA_PULL=%REPO_ROOT%\DATA_PULL_SCRIPTS"
 set "CENTRAL_PY=%DATA_PULL%\central_food_pull.py"
 
 REM ---------- RAW DATA ROOT (NOT GIT-TRACKED) --------------------
 
-set "RAW_DATA_ROOT=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA"
+set "RAW_DATA_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA"
 
 REM Store parent folders (must exist under RAW_DATA_ROOT)
 set "ACC_RAW_ROOT=%RAW_DATA_ROOT%\ACC_RAW"
@@ -52,10 +52,10 @@ if not exist "%WM_RAW_ROOT%" mkdir "%WM_RAW_ROOT%"
 
 REM ---------- PYTHON VENV ACTIVATION -----------------------------
 
-call "%USERPROFILE%\.venvs\FP_env\Scripts\activate.bat"
-if errorlevel 1 (
-    echo [BAT-ERROR] Failed to activate FP_env>>"%RUN_LOG%"
-    echo Failed to activate FP_env
+call "%USERPROFILE%\Documents\GitHub\Alaska_Food\.venv\Scripts\activate.bat"
+if errorlevel 1 ( 
+    echo [BAT-ERROR] Failed to activate virtual enviroment>>"%RUN_LOG%"
+    echo Failed to activate virtual enviroment
     pause
     exit /b 1
 )
@@ -67,7 +67,7 @@ REM ===============================================================
 set "RUN_ACC=FALSE"
 set "RUN_CS=FALSE"
 set "RUN_FM=FALSE"
-set "RUN_WM=TRUE"
+set "RUN_WM=FALSE"
 
 REM ===============================================================
 REM  WALMART MODE (CHOOSE ONE)
@@ -76,8 +76,9 @@ REM   DOWNLOAD      = download snapshot via Bright Data API
 REM   IMPORT_MANUAL = clean/merge manually downloaded CSV+JSON
 REM ===============================================================
 
-set "WM_MODE=DOWNLOAD"
-set WM_SNAPSHOT_FORMAT=csv
+set "WM_MODE=PULL"
+set WM_SNAPSHOT_FORMAT=json
+REM format can be csv or json 
 
 
 REM ---------- KROGER CREDENTIALS (ONLY NEEDED IF RUN_FM=TRUE) ----
@@ -87,14 +88,14 @@ set "KROGER_CLIENT_SECRET=gUnOOBLmuXR0zSIc8NhUMsL2db3ODrxES9vk9Tv4"
 
 REM ---------- BRIGHT DATA (WALMART) ------------------------------
 
-set "WM_API_KEY=5470de471903618d2dd462633e022234e47d1a8257a1db9f615abda30cb047d3"
+set "WM_API_KEY=6cb65f280be46cde8e77e6a8212a0b26ff5b4995affc4cc4bccafcae6060a6bc"
 set "WM_DATASET_ID=gd_m693oc1r1gebnayxq"
 
 REM If WM_MODE=DOWNLOAD, you may specify a snapshot id (optional if your downloader selects latest ready)
-set "WM_SNAPSHOT_ID=sd_mjc2uwzoro56qxt8e"
+set "WM_SNAPSHOT_ID=sd_mkj7vgxu15f1rxf8am"
 
 REM Search list used by WM pull script when WM_MODE=PULL
-set "WM_SEARCH_FILE=%DATA_PULL%\WM\WM_search_list.txt"
+set "WM_SEARCH_FILE=%DATA_PULL%\WM\WM_search_list_v2.txt"
 
 REM Optional polling knobs (only used if your WM scripts read them)
 set "WM_MAX_WAIT_MIN=360"

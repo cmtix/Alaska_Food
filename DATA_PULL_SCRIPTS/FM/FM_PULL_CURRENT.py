@@ -259,6 +259,11 @@ today_str = datetime.now().strftime("%Y-%m-%d")
 for location_id in location_ids:
     for upc in upcs:
         try:
+            print(
+                f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] "
+                f"Fetching UPC {upc} from location {location_id}",
+                flush=True
+            )
             data = fetch_product(token, location_id, upc)
             results_list.append({
                 "Location ID": location_id,

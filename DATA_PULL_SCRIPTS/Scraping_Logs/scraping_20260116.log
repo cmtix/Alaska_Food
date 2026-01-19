@@ -1,0 +1,222 @@
+2026-01-16 04:04:03,421 INFO: ====== WebDriver manager ======
+2026-01-16 04:04:04,058 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:04:04,410 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:04:04,696 INFO: There is no [win64] chromedriver "143.0.7499.192" for browser google-chrome "143.0.7499" in cache
+2026-01-16 04:04:04,696 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:04:05,368 INFO: WebDriver version 143.0.7499.192 selected
+2026-01-16 04:04:05,371 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-16 04:04:05,372 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-16 04:04:05,661 INFO: Driver downloading response is 200
+2026-01-16 04:04:06,157 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:04:06,518 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\143.0.7499.192]
+2026-01-16 04:10:20,958 INFO: Store 235: saved 5500 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_235_01_26.csv
+2026-01-16 04:10:41,989 ERROR: Failed to send email for store 235: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:10:51,991 INFO: ====== WebDriver manager ======
+2026-01-16 04:10:52,641 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:10:52,927 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:10:53,197 INFO: There is no [win64] chromedriver "144.0.7559.31" for browser google-chrome "144.0.7559" in cache
+2026-01-16 04:10:53,197 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:10:53,856 INFO: WebDriver version 144.0.7559.31 selected
+2026-01-16 04:10:53,858 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.31/win32/chromedriver-win32.zip
+2026-01-16 04:10:53,858 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.31/win32/chromedriver-win32.zip
+2026-01-16 04:10:54,140 INFO: Driver downloading response is 200
+2026-01-16 04:10:54,631 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:10:54,992 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31]
+2026-01-16 04:16:34,568 INFO: Store 122: saved 3352 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_122_01_26.csv
+2026-01-16 04:16:55,611 ERROR: Failed to send email for store 122: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:17:05,613 INFO: ====== WebDriver manager ======
+2026-01-16 04:17:06,255 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:17:06,543 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:17:06,810 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 04:22:54,202 INFO: Store 125: saved 3972 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_125_01_26.csv
+2026-01-16 04:23:15,245 ERROR: Failed to send email for store 125: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:23:25,248 INFO: ====== WebDriver manager ======
+2026-01-16 04:23:25,936 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:23:26,204 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:23:26,489 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 04:29:26,295 INFO: Store 135: saved 5850 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_135_01_26.csv
+2026-01-16 04:29:47,331 ERROR: Failed to send email for store 135: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:29:57,333 INFO: ====== WebDriver manager ======
+2026-01-16 04:29:57,903 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:29:58,169 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:29:58,454 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 04:35:42,366 INFO: Store 155: saved 3815 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_155_01_26.csv
+2026-01-16 04:36:03,408 ERROR: Failed to send email for store 155: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:36:13,411 INFO: ====== WebDriver manager ======
+2026-01-16 04:36:13,998 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:36:14,273 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:36:14,554 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 04:41:56,386 INFO: Store 175: saved 3692 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_175_01_26.csv
+2026-01-16 04:42:17,417 ERROR: Failed to send email for store 175: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:42:27,419 INFO: ====== WebDriver manager ======
+2026-01-16 04:42:27,970 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:42:28,247 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:42:28,527 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 04:48:18,426 INFO: Store 180: saved 4337 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_180_01_26.csv
+2026-01-16 04:48:39,455 ERROR: Failed to send email for store 180: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:48:49,457 INFO: ====== WebDriver manager ======
+2026-01-16 04:48:50,019 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:48:50,305 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:48:50,568 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 04:54:47,199 INFO: Store 185: saved 5502 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_185_01_26.csv
+2026-01-16 04:55:08,228 ERROR: Failed to send email for store 185: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 04:55:18,230 INFO: ====== WebDriver manager ======
+2026-01-16 04:55:18,906 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:55:19,224 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 04:55:19,508 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:01:19,180 INFO: Store 200: saved 3550 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_200_01_26.csv
+2026-01-16 05:01:40,189 ERROR: Failed to send email for store 200: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:01:50,191 INFO: ====== WebDriver manager ======
+2026-01-16 05:01:50,795 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:01:51,057 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:01:51,364 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:07:46,010 INFO: Store 203: saved 3430 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_203_01_26.csv
+2026-01-16 05:08:07,044 ERROR: Failed to send email for store 203: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:08:17,046 INFO: ====== WebDriver manager ======
+2026-01-16 05:08:17,642 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:08:17,988 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:08:18,276 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:13:58,319 INFO: Store 206: saved 3537 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_206_01_26.csv
+2026-01-16 05:14:19,363 ERROR: Failed to send email for store 206: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:14:29,366 INFO: ====== WebDriver manager ======
+2026-01-16 05:14:29,959 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:14:30,248 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:14:30,531 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:20:15,790 INFO: Store 207: saved 3997 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_207_01_26.csv
+2026-01-16 05:20:36,830 ERROR: Failed to send email for store 207: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:20:46,832 INFO: ====== WebDriver manager ======
+2026-01-16 05:20:47,423 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:20:47,701 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:20:47,980 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:26:38,178 INFO: Store 215: saved 4028 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_215_01_26.csv
+2026-01-16 05:26:59,233 ERROR: Failed to send email for store 215: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:27:09,234 INFO: ====== WebDriver manager ======
+2026-01-16 05:27:09,899 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:27:10,182 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:27:10,466 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:33:03,963 INFO: Store 220: saved 4400 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_220_01_26.csv
+2026-01-16 05:33:24,990 ERROR: Failed to send email for store 220: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:33:34,992 INFO: ====== WebDriver manager ======
+2026-01-16 05:33:35,584 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:33:35,849 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:33:36,120 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:39:15,465 INFO: Store 230: saved 3434 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_230_01_26.csv
+2026-01-16 05:39:36,515 ERROR: Failed to send email for store 230: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:39:46,517 INFO: ====== WebDriver manager ======
+2026-01-16 05:39:47,118 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:39:47,408 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:39:47,683 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:45:27,951 INFO: Store 231: saved 3812 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_231_01_26.csv
+2026-01-16 05:45:49,004 ERROR: Failed to send email for store 231: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:45:59,007 INFO: ====== WebDriver manager ======
+2026-01-16 05:45:59,600 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:45:59,886 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:46:00,169 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:51:44,976 INFO: Store 255: saved 3956 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_255_01_26.csv
+2026-01-16 05:52:06,017 ERROR: Failed to send email for store 255: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:52:16,018 INFO: ====== WebDriver manager ======
+2026-01-16 05:52:16,590 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:52:16,856 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:52:17,138 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 05:58:02,010 INFO: Store 265: saved 4326 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_265_01_26.csv
+2026-01-16 05:58:23,054 ERROR: Failed to send email for store 265: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 05:58:33,056 INFO: ====== WebDriver manager ======
+2026-01-16 05:58:33,665 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:58:33,947 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 05:58:34,241 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:04:57,438 INFO: Store 272: saved 6052 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_272_01_26.csv
+2026-01-16 06:05:18,472 ERROR: Failed to send email for store 272: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:05:28,473 INFO: ====== WebDriver manager ======
+2026-01-16 06:05:29,065 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:05:29,390 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:05:29,666 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:11:16,361 INFO: Store 284: saved 5831 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_284_01_26.csv
+2026-01-16 06:11:37,401 ERROR: Failed to send email for store 284: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:11:47,402 INFO: ====== WebDriver manager ======
+2026-01-16 06:11:48,011 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:11:48,299 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:11:48,573 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:17:40,192 INFO: Store 285: saved 4426 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_285_01_26.csv
+2026-01-16 06:18:01,225 ERROR: Failed to send email for store 285: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:18:11,226 INFO: ====== WebDriver manager ======
+2026-01-16 06:18:11,804 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:18:12,084 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:18:12,375 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:24:08,151 INFO: Store 295: saved 5375 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_295_01_26.csv
+2026-01-16 06:24:29,186 ERROR: Failed to send email for store 295: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:24:39,188 INFO: ====== WebDriver manager ======
+2026-01-16 06:24:39,845 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:24:40,118 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:24:40,425 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:30:31,803 INFO: Store 302: saved 4380 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_302_01_26.csv
+2026-01-16 06:30:52,841 ERROR: Failed to send email for store 302: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:31:02,843 INFO: ====== WebDriver manager ======
+2026-01-16 06:31:03,420 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:31:03,690 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:31:03,968 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:37:08,347 INFO: Store 309: saved 5363 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_309_01_26.csv
+2026-01-16 06:37:29,359 ERROR: Failed to send email for store 309: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:37:39,361 INFO: ====== WebDriver manager ======
+2026-01-16 06:37:39,925 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:37:40,202 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:37:40,477 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:43:26,855 INFO: Store 315: saved 3663 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_315_01_26.csv
+2026-01-16 06:43:47,907 ERROR: Failed to send email for store 315: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:43:57,911 INFO: ====== WebDriver manager ======
+2026-01-16 06:43:58,581 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:43:58,848 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:43:59,119 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:49:45,053 INFO: Store 325: saved 4089 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_325_01_26.csv
+2026-01-16 06:50:06,106 ERROR: Failed to send email for store 325: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:50:16,108 INFO: ====== WebDriver manager ======
+2026-01-16 06:50:16,719 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:50:16,988 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:50:17,259 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 06:56:36,198 INFO: Store 330: saved 5055 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_330_01_26.csv
+2026-01-16 06:56:57,229 ERROR: Failed to send email for store 330: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 06:57:07,232 INFO: ====== WebDriver manager ======
+2026-01-16 06:57:07,885 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:57:08,155 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 06:57:08,440 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:03:24,995 INFO: Store 335: saved 4183 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_335_01_26.csv
+2026-01-16 07:03:46,024 ERROR: Failed to send email for store 335: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 07:03:56,026 INFO: ====== WebDriver manager ======
+2026-01-16 07:03:56,651 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:03:56,945 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:03:57,236 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:09:46,320 INFO: Store 345: saved 4247 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_345_01_26.csv
+2026-01-16 07:10:07,357 ERROR: Failed to send email for store 345: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 07:10:17,360 INFO: ====== WebDriver manager ======
+2026-01-16 07:10:17,949 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:10:18,266 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:10:18,543 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:14:24,567 WARNING: Flattened dataframe empty for store 358
+2026-01-16 07:14:24,567 INFO: ====== WebDriver manager ======
+2026-01-16 07:14:25,179 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:14:25,457 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:14:25,740 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:20:13,640 INFO: Store 365: saved 3850 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_365_01_26.csv
+2026-01-16 07:20:34,677 ERROR: Failed to send email for store 365: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 07:20:44,679 INFO: ====== WebDriver manager ======
+2026-01-16 07:20:45,246 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:20:45,525 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:20:45,808 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:26:47,082 INFO: Store 366: saved 5788 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_366_01_26.csv
+2026-01-16 07:27:08,091 ERROR: Failed to send email for store 366: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 07:27:18,092 INFO: ====== WebDriver manager ======
+2026-01-16 07:27:18,748 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:27:19,027 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:27:19,289 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:33:13,155 INFO: Store 375: saved 4711 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_375_01_26.csv
+2026-01-16 07:33:34,200 ERROR: Failed to send email for store 375: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 07:33:44,201 INFO: ====== WebDriver manager ======
+2026-01-16 07:33:44,773 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:33:45,041 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 07:33:45,328 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 07:39:46,116 INFO: Store 395: saved 5588 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_395_01_26.csv
+2026-01-16 07:40:07,142 ERROR: Failed to send email for store 395: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2026-01-16 23:03:19,793 INFO: ====== WebDriver manager ======
+2026-01-16 23:03:20,419 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 23:03:20,758 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-16 23:03:21,026 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-16 23:07:23,752 WARNING: Flattened dataframe empty for store 358

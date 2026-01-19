@@ -14,7 +14,7 @@ WM_MODE = os.getenv("WM_MODE", "PULL").upper()
 
 BASE_URL = "https://api.brightdata.com/datasets/v3"
 REGISTRY = Path(
-    r"C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\WM\wm_snapshot_registry.csv"
+    r"C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\wm_snapshot_registry.csv"    
 )
 
 
@@ -57,6 +57,12 @@ def trigger_snapshot():
         for z in SEARCH_ZIPS
     ]
 
+    ItemCount = len(SEARCH_ITEMS)
+    ZipCount = len(SEARCH_ZIPS)
+    #print(payload) #Only print this if you want to sanity check. it should be huge and ugly and if it's not huge and ugly you have a problem!
+
+    print("Requesting " + str(ItemCount) + " items from " + str(ZipCount) + " zip codes ...")
+
     r = requests.post(url, headers=headers, params=params, json=payload, timeout=120)
     r.raise_for_status()
 
@@ -66,6 +72,7 @@ def trigger_snapshot():
 
     print(f"[WM] Snapshot triggered: {snapshot_id}")
     return snapshot_id
+    #return 0
 
     
 # THIS loads search

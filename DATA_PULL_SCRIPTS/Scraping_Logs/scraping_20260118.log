@@ -1,0 +1,25 @@
+2026-01-18 04:29:18,654 INFO: ====== WebDriver manager ======
+2026-01-18 04:29:19,237 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-18 04:29:19,565 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-18 04:29:19,848 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-18 04:29:20,525 INFO: WebDriver version 144.0.7559.31 selected
+2026-01-18 04:29:20,527 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.31/win32/chromedriver-win32.zip
+2026-01-18 04:29:20,527 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.31/win32/chromedriver-win32.zip
+2026-01-18 04:29:20,812 INFO: Driver downloading response is 200
+2026-01-18 04:29:21,306 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-18 04:29:21,656 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31]
+2026-01-18 04:34:51,917 WARNING: Keyword 'Orange juice frozen' request failed for store 358: 502
+2026-01-18 04:51:26,886 WARNING: Keyword 'romaine lettuce' request failed for store 358: 502
+2026-01-18 05:01:38,152 WARNING: Keyword 'Lard' request failed for store 358: 502
+2026-01-18 05:01:41,485 WARNING: Keyword 'Lentil' request failed for store 358: 502
+2026-01-18 05:01:41,991 WARNING: Keyword 'Macaroni' request failed for store 358: 502
+2026-01-18 05:01:44,478 WARNING: Keyword 'Melon' request failed for store 358: 502
+2026-01-18 05:01:45,530 WARNING: Keyword 'Multigrain' request failed for store 358: 502
+2026-01-18 05:01:47,838 WARNING: Keyword 'Nut' request failed for store 358: 502
+2026-01-18 05:01:48,925 WARNING: Keyword 'Oatmeal' request failed for store 358: 502
+2026-01-18 05:01:49,370 WARNING: Keyword 'Parsley' request failed for store 358: 502
+2026-01-18 05:01:49,802 WARNING: Keyword 'Passion fruit' request failed for store 358: 502
+2026-01-18 05:01:50,238 WARNING: Keyword 'Pasta' request failed for store 358: 502
+2026-01-18 05:01:51,934 WARNING: Keyword 'Pepper' request failed for store 358: 502
+2026-01-18 05:01:55,390 WARNING: Keyword 'Persimmon' request failed for store 358: 502
+2026-01-18 05:02:47,216 WARNING: Flattened dataframe empty for store 358

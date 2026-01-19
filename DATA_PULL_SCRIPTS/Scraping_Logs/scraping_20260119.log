@@ -1,0 +1,11 @@
+2026-01-19 04:13:40,359 INFO: ====== WebDriver manager ======
+2026-01-19 04:13:41,013 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-19 04:13:41,368 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-19 04:13:41,645 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-19 04:13:42,286 INFO: WebDriver version 144.0.7559.31 selected
+2026-01-19 04:13:42,289 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.31/win32/chromedriver-win32.zip
+2026-01-19 04:13:42,289 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.31/win32/chromedriver-win32.zip
+2026-01-19 04:13:42,568 INFO: Driver downloading response is 200
+2026-01-19 04:13:43,059 INFO: Get LATEST chromedriver version for google-chrome
+2026-01-19 04:13:43,401 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\144.0.7559.31]
+2026-01-19 04:19:36,962 INFO: Store 115: saved 5387 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_01\ACC_115_01_26.csv

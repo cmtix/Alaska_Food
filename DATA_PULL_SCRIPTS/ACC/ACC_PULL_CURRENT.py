@@ -42,32 +42,32 @@ logging.basicConfig(
 # ──────────────────────────────────────────────────────────────────────────────
 # 1. EMAIL NOTIFICATION FUNCTION
 # ──────────────────────────────────────────────────────────────────────────────
-def send_email(store_id: str, record_count: int, csv_path: str):
-    subject = f"ACC_{store_id}_{datetime.now().strftime('%Y-%m-%d')}.csv is saved"
-    body = (
-        f"Hello,\n\n"
-        f"The ACC store {store_id} dataset has been saved successfully.\n"
-        f"Record count: {record_count}\n"
-        f"Location: {csv_path}\n\n"
-        f"— Your scraper"
-    )
-    msg = MIMEText(body)
-    msg["Subject"] = subject
-    msg["From"] = "vlcollier@alaska.edu"
-    msg["To"] = "vlcollier@alaska.edu"
+# def send_email(store_id: str, record_count: int, csv_path: str):
+#     subject = f"ACC_{store_id}_{datetime.now().strftime('%Y-%m-%d')}.csv is saved"
+#     body = (
+#         f"Hello,\n\n"
+#         f"The ACC store {store_id} dataset has been saved successfully.\n"
+#         f"Record count: {record_count}\n"
+#         f"Location: {csv_path}\n\n"
+#         f"— Your scraper"
+#     )
+#     msg = MIMEText(body)
+#     msg["Subject"] = subject
+#     msg["From"] = "vlcollier@alaska.edu"
+#     msg["To"] = "vlcollier@alaska.edu"
 
-    smtp_server = "smtp.alaska.edu"
-    smtp_port = 465
-    smtp_user = "vlcollier@alaska.edu"
-    smtp_pass = "gefk toly yukl yfkq" # Replace with your actual app password
+#     smtp_server = "smtp.alaska.edu"
+#     smtp_port = 465
+#     smtp_user = "vlcollier@alaska.edu"
+#     smtp_pass = "gefk toly yukl yfkq" # Replace with your actual app password
 
-    try:
-        with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
-            server.login(smtp_user, smtp_pass)
-            server.send_message(msg)
-        logging.info(f"Email sent for store {store_id}")
-    except Exception as e:
-        logging.error(f"Failed to send email for store {store_id}: {e}")
+#     try:
+#         with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
+#             server.login(smtp_user, smtp_pass)
+#             server.send_message(msg)
+#         logging.info(f"Email sent for store {store_id}")
+#     except Exception as e:
+#         logging.error(f"Failed to send email for store {store_id}: {e}")
 
 
 # Root output directory for ACC raw files (override via ACC_OUT_DIR env)
@@ -103,10 +103,10 @@ def save_payload_results_with_log_and_email(df: pd.DataFrame, store: str):
     record_count = len(df)
     logging.info(f"Store {store}: saved {record_count} records to {file_path}")
 
-    try:
-        send_email(store, record_count, file_path)
-    except Exception as e:
-        logging.error(f"Email failed for store {store}: {e}")
+    #try:
+    #    send_email(store, record_count, file_path)
+    #except Exception as e:
+    #    logging.error(f"Email failed for store {store}: {e}")
 
 # ──────────────────────────────────────────────────────────────────────────────
 def retrieve_token(driver, zip_code):
@@ -145,7 +145,8 @@ def search_keyword_payload(token, keyword, store):
         "Accept": "application/json",
         "Content-Type": "application/json",
         "Authorization": f"Bearer {token}",
-        "User-Agent": "Mozilla/5.0"
+        "User-Agent": "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        #"User-Agent": "Mozilla/5.0"
     }
     payload = {"SEARCH_STRING": keyword}
     response = requests.post(url, params=params, headers=headers, json=payload)
@@ -184,6 +185,7 @@ def main():
     print("Starting ACC data scraping...")
     keywords_csv_path = r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\UAV Rural Essential Goods Delivery\FOOD_PRICING\Data_Scraping\ACC\ACC_Keyword_Data_Restored.csv"
     crosswalk_csv = r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\UAV Rural Essential Goods Delivery\FOOD_PRICING\Data\CROSSWALKS\Stores_Crosswalk.csv"
+    #FIXme! 
 
     keywords = pd.read_csv(keywords_csv_path)["ACC_Keywords"].dropna().tolist()
     store_df = pd.read_csv(crosswalk_csv)
@@ -192,7 +194,11 @@ def main():
     for _, row in store_df.iterrows():
         zip_code = str(row['ZIP'])
         store_id = str(row['STORE_ID'])
-        print(f"\nProcessing ZIP {zip_code} (store {store_id})")
+        print(
+            f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] "
+            f"Processing ZIP {zip_code} at store {store_id}",
+            flush=True
+        )
 
         options = Options()
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)

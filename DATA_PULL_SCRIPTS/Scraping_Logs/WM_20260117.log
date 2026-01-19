@@ -1,0 +1,141 @@
+[2026-01-17 02:22:35] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 02:22:37] ERROR: exception while running script.
+[2026-01-17 02:22:37] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 722, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vlcollier\\GITHUB_PUSH\\Alaska_Food\\DATA_PULL_SCRIPTS\\WM'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 722, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vlcollier\\GITHUB_PUSH\\Alaska_Food\\DATA_PULL_SCRIPTS'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 722, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vlcollier\\GITHUB_PUSH\\Alaska_Food'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 722, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\vlcollier\\GITHUB_PUSH'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 266, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 115, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 109, in main
+    log_snapshot(snapshot_id)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 29, in log_snapshot
+    REGISTRY.parent.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 726, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 726, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 726, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 722, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\vlcollier'
+
+[2026-01-17 02:27:36] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 02:27:37] SUCCESS (sys.exit(0)).
+[2026-01-17 16:47:18] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 16:47:19] SUCCESS (sys.exit(0)).
+[2026-01-17 18:33:10] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:33:10] SUCCESS (sys.exit(0)).
+[2026-01-17 18:47:49] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:47:49] ERROR: exception while running script.
+[2026-01-17 18:47:49] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 267, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 121, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 114, in main
+    snapshot_id = trigger_snapshot()
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 60, in trigger_snapshot
+    ItemCount = SEARCH_ITEMS.count()
+TypeError: list.count() takes exactly one argument (0 given)
+
+[2026-01-17 18:49:52] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:49:52] ERROR: exception while running script.
+[2026-01-17 18:49:52] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 267, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 121, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 114, in main
+    snapshot_id = trigger_snapshot()
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 60, in trigger_snapshot
+    ItemCount = SEARCH_ITEMS.len()
+                ^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+
+[2026-01-17 18:50:41] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:50:41] ERROR: exception while running script.
+[2026-01-17 18:50:41] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 267, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 121, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 114, in main
+    snapshot_id = trigger_snapshot()
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py", line 63, in trigger_snapshot
+    print("Requesting " + ItemCount + " items from " + ZipCount + " zip codes ...")
+          ~~~~~~~~~~~~~~^~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+
+[2026-01-17 18:51:52] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:51:52] SUCCESS (sys.exit(0)).
+[2026-01-17 18:52:53] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:52:53] SUCCESS (sys.exit(0)).
+[2026-01-17 18:53:44] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 18:53:44] SUCCESS (sys.exit(0)).
+[2026-01-17 19:07:18] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 19:07:18] SUCCESS (sys.exit(0)).
+[2026-01-17 19:08:58] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_PULL_CURRENT.py
+[2026-01-17 19:08:59] SUCCESS (sys.exit(0)).

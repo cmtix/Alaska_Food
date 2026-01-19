@@ -37,12 +37,15 @@ OUT_DIR = Path(WM_RAW_ROOT) / f"{STORE}_{YY_MM}"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 OUT_FILE = OUT_DIR / f"{SNAPSHOT_ID}.json"
+#OUT_FILE = OUT_DIR / f"{SNAPSHOT_ID}.csv"
 
 # ======================================================
 # BRIGHT DATA SNAPSHOT DOWNLOAD URL
 # ======================================================
 
-FORMAT = os.getenv("WM_SNAPSHOT_FORMAT", "csv").lower()
+FORMAT = os.getenv("WM_SNAPSHOT_FORMAT", "json").lower()
+#FORMAT = os.getenv("WM_SNAPSHOT_FORMAT", "csv").lower()
+
 
 URL = (
     f"https://api.brightdata.com/datasets/v3/snapshot/"

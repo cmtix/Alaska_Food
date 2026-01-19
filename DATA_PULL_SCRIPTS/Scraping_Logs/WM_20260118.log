@@ -1,0 +1,116 @@
+[2026-01-18 01:50:49] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 01:50:53] SUCCESS (sys.exit(0)).
+[2026-01-18 01:58:21] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 01:58:24] SUCCESS (sys.exit(0)).
+[2026-01-18 02:01:12] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 02:01:16] SUCCESS (sys.exit(0)).
+[2026-01-18 02:04:32] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 02:04:35] SUCCESS (sys.exit(0)).
+[2026-01-18 03:49:00] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 03:54:21] SUCCESS (sys.exit(0)).
+[2026-01-18 04:05:57] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 04:06:23] ERROR: script exited with code 1
+[2026-01-18 04:06:23] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 903, in _error_catcher
+    yield
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1049, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(166658048 bytes read, 4492537393 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1257, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1149, in read
+    data = self._raw_read(amt)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1027, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 927, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(166658048 bytes read, 4492537393 more expected)', IncompleteRead(166658048 bytes read, 4492537393 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 101, in <module>
+    for chunk in response.iter_content(chunk_size=8192):
+                 ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(166658048 bytes read, 4492537393 more expected)', IncompleteRead(166658048 bytes read, 4492537393 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 267, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 111, in <module>
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+
+[2026-01-18 04:11:22] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py
+[2026-01-18 04:11:45] ERROR: script exited with code 1
+[2026-01-18 04:11:45] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 903, in _error_catcher
+    yield
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1049, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(146718720 bytes read, 4512476721 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1257, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1149, in read
+    data = self._raw_read(amt)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 1027, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\cmtix\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\urllib3\response.py", line 927, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(146718720 bytes read, 4512476721 more expected)', IncompleteRead(146718720 bytes read, 4512476721 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 101, in <module>
+    for chunk in response.iter_content(chunk_size=8192):
+                 ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(146718720 bytes read, 4512476721 more expected)', IncompleteRead(146718720 bytes read, 4512476721 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 267, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\WM\WM_download_snapshot.py", line 111, in <module>
+    sys.exit(1)
+    ~~~~~~~~^^^
+SystemExit: 1
+

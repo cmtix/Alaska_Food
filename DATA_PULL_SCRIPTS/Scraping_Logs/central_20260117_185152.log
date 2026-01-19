@@ -1,0 +1,4 @@
+[2026-01-17 18:51:52] Central runner started
+[2026-01-17 18:51:52] RUN_DATE = 2026-01-17
+[2026-01-17 18:51:52] SCRAPE_LOG_DIR = C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\Scraping_Logs
+[2026-01-17 18:51:52] Toggles: RUN_ACC=False, RUN_CS=False, RUN_FM=False, RUN_WM=True
