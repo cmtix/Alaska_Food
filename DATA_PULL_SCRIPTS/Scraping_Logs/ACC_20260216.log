@@ -1,0 +1,42 @@
+[2026-02-16 18:54:47] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\ACC\ACC_PULL_CURRENT.py
+[2026-02-16 18:54:47] ERROR: exception while running script.
+[2026-02-16 18:54:47] PY_TRACEBACK:
+Traceback (most recent call last):
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py", line 267, in run_python_file
+    runpy.run_path(py_file, run_name="__main__")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\ACC\ACC_PULL_CURRENT.py", line 239, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\ACC\ACC_PULL_CURRENT.py", line 191, in main
+    store_df = pd.read_csv(crosswalk_csv)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'G:\\.shortcut-targets-by-id\\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\\Drones_MV\\UAV Rural Essential Goods Delivery\\FOOD_PRICING\\Data\\CROSSWALKS\\Stores_Crosswalk2.csv'
+
+[2026-02-16 18:57:34] START: C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\ACC\ACC_PULL_CURRENT.py
+[2026-02-16 19:03:32] SUCCESS.

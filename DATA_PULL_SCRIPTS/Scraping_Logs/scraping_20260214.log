@@ -1,0 +1,210 @@
+2026-02-14 20:43:02,641 INFO: ====== WebDriver manager ======
+2026-02-14 20:43:03,323 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:43:03,669 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:43:03,957 INFO: There is no [win64] chromedriver "145.0.7632.76" for browser google-chrome "145.0.7632" in cache
+2026-02-14 20:43:03,957 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:43:04,651 INFO: WebDriver version 145.0.7632.76 selected
+2026-02-14 20:43:04,654 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.76/win32/chromedriver-win32.zip
+2026-02-14 20:43:04,655 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.76/win32/chromedriver-win32.zip
+2026-02-14 20:43:04,945 INFO: Driver downloading response is 200
+2026-02-14 20:43:05,436 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:43:05,801 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76]
+2026-02-14 20:48:56,722 INFO: Store 235: saved 5484 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_235_02_26.csv
+2026-02-14 20:49:06,723 INFO: ====== WebDriver manager ======
+2026-02-14 20:49:07,349 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:49:07,634 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:49:07,927 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 20:54:38,059 INFO: Store 122: saved 3357 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_122_02_26.csv
+2026-02-14 20:54:48,060 INFO: ====== WebDriver manager ======
+2026-02-14 20:54:48,640 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:54:48,924 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 20:54:49,205 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:00:39,903 INFO: Store 125: saved 4001 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_125_02_26.csv
+2026-02-14 21:00:49,904 INFO: ====== WebDriver manager ======
+2026-02-14 21:00:50,489 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:00:50,765 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:00:51,048 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:06:43,253 INFO: Store 135: saved 5835 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_135_02_26.csv
+2026-02-14 21:06:53,254 INFO: ====== WebDriver manager ======
+2026-02-14 21:06:53,821 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:06:54,117 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:06:54,393 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:12:27,173 INFO: Store 155: saved 3798 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_155_02_26.csv
+2026-02-14 21:12:37,174 INFO: ====== WebDriver manager ======
+2026-02-14 21:12:37,764 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:12:38,047 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:12:38,319 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:18:14,092 INFO: Store 175: saved 3696 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_175_02_26.csv
+2026-02-14 21:18:24,092 INFO: ====== WebDriver manager ======
+2026-02-14 21:18:24,727 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:18:25,009 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:18:25,294 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:24:09,477 INFO: Store 180: saved 4319 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_180_02_26.csv
+2026-02-14 21:24:19,479 INFO: ====== WebDriver manager ======
+2026-02-14 21:24:20,182 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:24:20,481 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:24:20,770 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:30:09,969 INFO: Store 185: saved 5486 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_185_02_26.csv
+2026-02-14 21:30:19,971 INFO: ====== WebDriver manager ======
+2026-02-14 21:30:20,568 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:30:20,853 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:30:21,128 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:35:56,188 INFO: Store 200: saved 3545 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_200_02_26.csv
+2026-02-14 21:36:06,189 INFO: ====== WebDriver manager ======
+2026-02-14 21:36:06,778 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:36:07,058 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:36:07,358 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:41:35,835 INFO: Store 203: saved 3397 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_203_02_26.csv
+2026-02-14 21:41:45,836 INFO: ====== WebDriver manager ======
+2026-02-14 21:41:46,433 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:41:46,719 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:41:47,017 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:47:17,833 INFO: Store 206: saved 3531 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_206_02_26.csv
+2026-02-14 21:47:27,834 INFO: ====== WebDriver manager ======
+2026-02-14 21:47:28,431 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:47:28,779 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:47:29,063 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:53:06,583 INFO: Store 207: saved 3971 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_207_02_26.csv
+2026-02-14 21:53:16,585 INFO: ====== WebDriver manager ======
+2026-02-14 21:53:17,263 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:53:17,551 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:53:17,850 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 21:58:55,387 INFO: Store 215: saved 4078 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_215_02_26.csv
+2026-02-14 21:59:05,389 INFO: ====== WebDriver manager ======
+2026-02-14 21:59:05,989 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:59:06,267 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 21:59:06,557 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:04:57,650 INFO: Store 220: saved 4398 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_220_02_26.csv
+2026-02-14 22:05:07,651 INFO: ====== WebDriver manager ======
+2026-02-14 22:05:08,327 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:05:08,605 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:05:08,900 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:10:37,615 INFO: Store 230: saved 3423 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_230_02_26.csv
+2026-02-14 22:10:47,620 INFO: ====== WebDriver manager ======
+2026-02-14 22:10:48,195 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:10:48,483 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:10:48,770 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:16:24,941 INFO: Store 231: saved 3816 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_231_02_26.csv
+2026-02-14 22:16:34,942 INFO: ====== WebDriver manager ======
+2026-02-14 22:16:35,527 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:16:35,808 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:16:36,093 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:22:14,378 INFO: Store 255: saved 3916 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_255_02_26.csv
+2026-02-14 22:22:24,379 INFO: ====== WebDriver manager ======
+2026-02-14 22:22:24,949 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:22:25,230 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:22:25,558 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:28:07,283 INFO: Store 265: saved 4353 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_265_02_26.csv
+2026-02-14 22:28:17,288 INFO: ====== WebDriver manager ======
+2026-02-14 22:28:17,973 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:28:18,250 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:28:18,533 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:34:01,193 INFO: Store 272: saved 6157 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_272_02_26.csv
+2026-02-14 22:34:11,195 INFO: ====== WebDriver manager ======
+2026-02-14 22:34:11,841 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:34:12,116 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:34:12,400 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:39:56,894 INFO: Store 284: saved 5821 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_284_02_26.csv
+2026-02-14 22:40:06,896 INFO: ====== WebDriver manager ======
+2026-02-14 22:40:07,482 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:40:07,756 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:40:08,035 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:45:45,606 INFO: Store 285: saved 4420 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_285_02_26.csv
+2026-02-14 22:45:55,607 INFO: ====== WebDriver manager ======
+2026-02-14 22:45:56,318 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:45:56,611 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:45:56,901 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:51:41,264 INFO: Store 295: saved 5368 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_295_02_26.csv
+2026-02-14 22:51:51,265 INFO: ====== WebDriver manager ======
+2026-02-14 22:51:51,858 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:51:52,204 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:51:52,496 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 22:57:26,675 INFO: Store 302: saved 4384 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_302_02_26.csv
+2026-02-14 22:57:36,676 INFO: ====== WebDriver manager ======
+2026-02-14 22:57:37,263 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:57:37,543 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 22:57:37,817 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 23:18:10,670 INFO: Store 309: saved 5353 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_309_02_26.csv
+2026-02-14 23:18:20,672 INFO: ====== WebDriver manager ======
+2026-02-14 23:18:21,330 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:18:21,614 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:18:21,884 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 23:18:41,292 ERROR: Token retrieval failed for ZIP 99789: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xbdf393
+	0xbdf3d4
+	0x9d2090
+	0xa1c51a
+	0xa1c7bb
+	0xa5e212
+	0xa3ee64
+	0xa5bb23
+	0xa3ebb6
+	0xa10319
+	0xa110d4
+	0xe34654
+	0xe2f959
+	0xe4c8f0
+	0xbf80a8
+	0xbffdfd
+	0xbe7bc8
+	0xbe7d92
+	0xbd189a
+	0x76b55d49
+	0x7795d5db
+	0x7795d561
+
+2026-02-14 23:18:43,395 WARNING: Skipping store 315 (ZIP 99789) — token not found
+2026-02-14 23:18:43,396 INFO: ====== WebDriver manager ======
+2026-02-14 23:18:43,989 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:18:44,262 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:18:44,537 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 23:36:47,525 INFO: Store 325: saved 4063 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_325_02_26.csv
+2026-02-14 23:36:57,526 INFO: ====== WebDriver manager ======
+2026-02-14 23:36:58,204 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:36:58,490 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:36:58,762 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-14 23:56:12,246 INFO: Store 330: saved 5014 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_330_02_26.csv
+2026-02-14 23:56:22,247 INFO: ====== WebDriver manager ======
+2026-02-14 23:56:22,804 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:56:23,172 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-14 23:56:23,449 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-15 00:15:06,247 INFO: Store 335: saved 4181 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_335_02_26.csv
+2026-02-15 00:15:16,248 INFO: ====== WebDriver manager ======
+2026-02-15 00:15:16,903 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:15:17,177 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:15:17,447 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:15:18,102 INFO: WebDriver version 145.0.7632.76 selected
+2026-02-15 00:15:18,104 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.76/win32/chromedriver-win32.zip
+2026-02-15 00:15:18,105 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.76/win32/chromedriver-win32.zip
+2026-02-15 00:15:18,379 INFO: Driver downloading response is 200
+2026-02-15 00:15:18,919 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:15:19,276 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76]
+2026-02-15 00:35:43,610 INFO: Store 345: saved 4232 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_345_02_26.csv
+2026-02-15 00:35:53,612 INFO: ====== WebDriver manager ======
+2026-02-15 00:35:54,300 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:35:54,600 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:35:54,870 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-15 00:55:05,559 INFO: Store 115: saved 5380 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_115_02_26.csv
+2026-02-15 00:55:15,560 INFO: ====== WebDriver manager ======
+2026-02-15 00:55:16,280 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:55:16,551 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 00:55:16,843 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-15 01:15:05,975 INFO: Store 365: saved 3845 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_365_02_26.csv
+2026-02-15 01:15:15,976 INFO: ====== WebDriver manager ======
+2026-02-15 01:15:16,616 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 01:15:16,940 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 01:15:17,254 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-15 01:33:39,366 INFO: Store 366: saved 5762 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_366_02_26.csv
+2026-02-15 01:33:49,368 INFO: ====== WebDriver manager ======
+2026-02-15 01:33:50,022 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 01:33:50,298 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 01:33:50,591 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-15 01:48:46,038 INFO: Store 375: saved 4739 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_375_02_26.csv
+2026-02-15 01:48:56,039 INFO: ====== WebDriver manager ======
+2026-02-15 01:48:56,735 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 01:48:57,014 INFO: Get LATEST chromedriver version for google-chrome
+2026-02-15 01:48:57,303 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\145.0.7632.76\chromedriver-win32/chromedriver.exe] found in cache
+2026-02-15 01:52:15,125 WARNING: Keyword 'steak' request failed for store 395: 502
+2026-02-15 02:02:35,284 INFO: Store 395: saved 5531 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_02\ACC_395_02_26.csv

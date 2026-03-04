@@ -184,8 +184,7 @@ def collapse_response_column(json_data):
 def main():
     print("Starting ACC data scraping...")
     keywords_csv_path = r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\UAV Rural Essential Goods Delivery\FOOD_PRICING\Data_Scraping\ACC\ACC_Keyword_Data_Restored.csv"
-    crosswalk_csv = r"G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\UAV Rural Essential Goods Delivery\FOOD_PRICING\Data\CROSSWALKS\Stores_Crosswalk.csv"
-    #FIXme! 
+    crosswalk_csv = r"G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\CROSSWALKS\Stores_Crosswalk.csv" 
 
     keywords = pd.read_csv(keywords_csv_path)["ACC_Keywords"].dropna().tolist()
     store_df = pd.read_csv(crosswalk_csv)

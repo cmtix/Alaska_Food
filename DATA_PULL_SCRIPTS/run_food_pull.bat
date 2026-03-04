@@ -92,7 +92,7 @@ set "WM_API_KEY=6cb65f280be46cde8e77e6a8212a0b26ff5b4995affc4cc4bccafcae6060a6bc
 set "WM_DATASET_ID=gd_m693oc1r1gebnayxq"
 
 REM If WM_MODE=DOWNLOAD, you may specify a snapshot id (optional if your downloader selects latest ready)
-set "WM_SNAPSHOT_ID=sd_mkj7vgxu15f1rxf8am"
+set "WM_SNAPSHOT_ID="
 
 REM Search list used by WM pull script when WM_MODE=PULL
 set "WM_SEARCH_FILE=%DATA_PULL%\WM\WM_search_list_v2.txt"

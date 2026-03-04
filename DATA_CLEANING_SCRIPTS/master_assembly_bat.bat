@@ -11,7 +11,8 @@ REM ---- Script folder (this BAT location) ----
 set "SCRIPT_DIR=%~dp0"
 
 REM ---- Python ----
-set "PYTHON_EXE=C:\Users\vlcollier\env\Scripts\python.exe"
+set "PYTHON_EXE=C:\Users\cmtix\Documents\GitHub\Alaska_Food\.venv\Scripts\python.exe"
+REM set "PYTHON_EXE=C:\Users\vlcollier\env\Scripts\python.exe"
 
 REM ---- Data roots (EDIT ON NEW MACHINE) ----
 set "RAW_ROOT=G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA"
