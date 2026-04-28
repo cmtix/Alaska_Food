@@ -64,10 +64,10 @@ REM ===============================================================
 REM STORE SWITCHES (BAT CONTROLS WHAT RUNS)
 REM ===============================================================
 
-set "RUN_ACC=FALSE"
+set "RUN_ACC=TRUE"
 set "RUN_CS=FALSE"
-set "RUN_FM=FALSE"
-set "RUN_WM=FALSE"
+set "RUN_FM=TRUE"
+set "RUN_WM=TRUE"
 
 REM ===============================================================
 REM  WALMART MODE (CHOOSE ONE)

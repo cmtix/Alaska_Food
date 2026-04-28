@@ -1161,3 +1161,42 @@ CENTRAL_PY=C:\Users\vlcollier\GITHUB_PUSH\Alaska_Food\DATA_PULL_SCRIPTS\central_
 [BAT] RUN_ACC=TRUE RUN_CS=FALSE RUN_FM=FALSE RUN_WM=FALSE
 [BAT] WM_MODE=PULL WM_SNAPSHOT_ID=
 [BAT] Launching central_food_pull.py
+==== run_food_pull.bat started Sun 03/15/2026 16:19:08.70 ====
+[BAT] REPO_ROOT=C:\Users\cmtix\Documents\GitHub\Alaska_Food
+[BAT] DATA_PULL=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS
+[BAT] CENTRAL_PY=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py
+[BAT] RAW_DATA_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA
+[BAT] ACC_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] WM_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] SCRAPE_LOG_DIR=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] RUN_ACC=TRUE RUN_CS=FALSE RUN_FM=TRUE RUN_WM=FALSE
+[BAT] WM_MODE=PULL WM_SNAPSHOT_ID=
+[BAT] Launching central_food_pull.py
+==== run_food_pull.bat started Mon 03/16/2026  6:09:21.99 ====
+[BAT] REPO_ROOT=C:\Users\cmtix\Documents\GitHub\Alaska_Food
+[BAT] DATA_PULL=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS
+[BAT] CENTRAL_PY=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py
+[BAT] RAW_DATA_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA
+[BAT] ACC_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] WM_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] SCRAPE_LOG_DIR=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] RUN_ACC=FALSE RUN_CS=FALSE RUN_FM=FALSE RUN_WM=TRUE
+[BAT] WM_MODE=PULL WM_SNAPSHOT_ID=
+[BAT] Launching central_food_pull.py
+==== run_food_pull.bat started Tue 04/14/2026 22:55:13.20 ====
+[BAT] REPO_ROOT=C:\Users\cmtix\Documents\GitHub\Alaska_Food
+[BAT] DATA_PULL=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS
+[BAT] CENTRAL_PY=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\central_food_pull.py
+[BAT] RAW_DATA_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA
+[BAT] ACC_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW
+[BAT] CS_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\CS_RAW
+[BAT] FM_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\FM_RAW
+[BAT] WM_RAW_ROOT=G:\.shortcut-targets-by-id\1uB3MyQ964WShHGxDYAvx8SAvgVh7ZOoT\FOOD_PRICING\DATA\RAW_DATA\WM_RAW
+[BAT] SCRAPE_LOG_DIR=C:\Users\cmtix\Documents\GitHub\Alaska_Food\DATA_PULL_SCRIPTS\Scraping_Logs
+[BAT] RUN_ACC=TRUE RUN_CS=FALSE RUN_FM=TRUE RUN_WM=TRUE
+[BAT] WM_MODE=PULL WM_SNAPSHOT_ID=
+[BAT] Launching central_food_pull.py

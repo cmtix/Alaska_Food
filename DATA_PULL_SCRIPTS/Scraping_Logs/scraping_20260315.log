@@ -1,0 +1,361 @@
+2026-03-15 16:19:09,301 INFO: ====== WebDriver manager ======
+2026-03-15 16:19:09,936 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:19:10,265 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:19:10,550 INFO: There is no [win64] chromedriver "146.0.7680.80" for browser google-chrome "146.0.7680" in cache
+2026-03-15 16:19:10,550 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:19:11,231 INFO: WebDriver version 146.0.7680.80 selected
+2026-03-15 16:19:11,233 INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.80/win32/chromedriver-win32.zip
+2026-03-15 16:19:11,234 INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.80/win32/chromedriver-win32.zip
+2026-03-15 16:19:11,514 INFO: Driver downloading response is 200
+2026-03-15 16:19:12,046 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:19:12,420 INFO: Driver has been saved in cache [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80]
+2026-03-15 16:24:53,706 INFO: Store 115: saved 5278 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_115_03_26.csv
+2026-03-15 16:25:03,707 INFO: ====== WebDriver manager ======
+2026-03-15 16:25:04,320 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:25:04,592 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:25:04,865 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 16:30:26,688 INFO: Store 122: saved 3346 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_122_03_26.csv
+2026-03-15 16:30:36,688 INFO: ====== WebDriver manager ======
+2026-03-15 16:30:37,337 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:30:37,606 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:30:37,886 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 16:36:08,394 INFO: Store 125: saved 4004 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_125_03_26.csv
+2026-03-15 16:36:18,395 INFO: ====== WebDriver manager ======
+2026-03-15 16:36:18,957 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:36:19,235 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:36:19,505 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 16:42:03,896 INFO: Store 135: saved 5855 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_135_03_26.csv
+2026-03-15 16:42:13,897 INFO: ====== WebDriver manager ======
+2026-03-15 16:42:14,488 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:42:14,768 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:42:15,102 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 16:47:41,789 INFO: Store 155: saved 3769 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_155_03_26.csv
+2026-03-15 16:47:51,790 INFO: ====== WebDriver manager ======
+2026-03-15 16:47:52,410 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:47:52,681 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:47:52,964 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 16:53:10,394 INFO: Store 175: saved 3698 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_175_03_26.csv
+2026-03-15 16:53:20,394 INFO: ====== WebDriver manager ======
+2026-03-15 16:53:20,974 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:53:21,238 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:53:21,509 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 16:58:51,679 INFO: Store 180: saved 4316 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_180_03_26.csv
+2026-03-15 16:59:01,681 INFO: ====== WebDriver manager ======
+2026-03-15 16:59:02,246 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:59:02,528 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 16:59:02,808 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:04:01,199 WARNING: Keyword 'sour cream' request failed for store 185: 502
+2026-03-15 17:08:09,325 INFO: Store 185: saved 5456 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_185_03_26.csv
+2026-03-15 17:08:19,326 INFO: ====== WebDriver manager ======
+2026-03-15 17:08:19,896 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:08:20,164 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:08:20,442 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:13:40,187 INFO: Store 200: saved 3569 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_200_03_26.csv
+2026-03-15 17:13:50,188 INFO: ====== WebDriver manager ======
+2026-03-15 17:13:50,882 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:13:51,155 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:13:51,436 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:19:09,656 INFO: Store 203: saved 3404 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_203_03_26.csv
+2026-03-15 17:19:19,657 INFO: ====== WebDriver manager ======
+2026-03-15 17:19:20,237 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:19:20,555 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:19:20,826 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:24:40,616 INFO: Store 206: saved 3459 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_206_03_26.csv
+2026-03-15 17:24:50,617 INFO: ====== WebDriver manager ======
+2026-03-15 17:24:51,199 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:24:51,491 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:24:51,761 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:30:22,439 INFO: Store 207: saved 3942 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_207_03_26.csv
+2026-03-15 17:30:32,440 INFO: ====== WebDriver manager ======
+2026-03-15 17:30:33,105 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:30:33,384 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:30:33,655 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:36:03,362 INFO: Store 215: saved 4089 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_215_03_26.csv
+2026-03-15 17:36:13,363 INFO: ====== WebDriver manager ======
+2026-03-15 17:36:13,953 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:36:14,220 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:36:14,623 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:41:50,658 INFO: Store 220: saved 4417 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_220_03_26.csv
+2026-03-15 17:42:00,660 INFO: ====== WebDriver manager ======
+2026-03-15 17:42:01,223 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:42:01,500 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:42:01,790 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:47:24,836 INFO: Store 230: saved 3383 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_230_03_26.csv
+2026-03-15 17:47:34,837 INFO: ====== WebDriver manager ======
+2026-03-15 17:47:35,487 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:47:35,773 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:47:36,086 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:53:01,198 INFO: Store 231: saved 3817 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_231_03_26.csv
+2026-03-15 17:53:11,200 INFO: ====== WebDriver manager ======
+2026-03-15 17:53:11,779 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:53:12,063 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:53:12,335 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 17:58:50,908 INFO: Store 235: saved 5508 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_235_03_26.csv
+2026-03-15 17:59:00,909 INFO: ====== WebDriver manager ======
+2026-03-15 17:59:01,570 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:59:01,849 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 17:59:02,116 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:04:07,821 WARNING: Keyword 'grapes' request failed for store 255: 502
+2026-03-15 18:08:07,783 INFO: Store 255: saved 3882 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_255_03_26.csv
+2026-03-15 18:08:17,785 INFO: ====== WebDriver manager ======
+2026-03-15 18:08:18,352 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:08:18,630 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:08:18,920 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:13:54,026 INFO: Store 265: saved 4375 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_265_03_26.csv
+2026-03-15 18:14:04,027 INFO: ====== WebDriver manager ======
+2026-03-15 18:14:04,695 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:14:04,999 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:14:05,286 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:19:42,736 INFO: Store 272: saved 6160 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_272_03_26.csv
+2026-03-15 18:19:52,737 INFO: ====== WebDriver manager ======
+2026-03-15 18:19:53,314 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:19:53,640 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:19:53,921 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:25:33,099 INFO: Store 284: saved 5812 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_284_03_26.csv
+2026-03-15 18:25:43,103 INFO: ====== WebDriver manager ======
+2026-03-15 18:25:43,714 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:25:43,999 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:25:44,272 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:31:21,979 INFO: Store 285: saved 4446 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_285_03_26.csv
+2026-03-15 18:31:31,980 INFO: ====== WebDriver manager ======
+2026-03-15 18:31:32,545 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:31:32,822 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:31:33,097 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:37:15,643 INFO: Store 295: saved 5362 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_295_03_26.csv
+2026-03-15 18:37:25,644 INFO: ====== WebDriver manager ======
+2026-03-15 18:37:26,217 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:37:26,508 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:37:26,783 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:42:59,592 INFO: Store 302: saved 4387 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_302_03_26.csv
+2026-03-15 18:43:09,593 INFO: ====== WebDriver manager ======
+2026-03-15 18:43:10,176 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:43:10,567 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:43:10,852 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:48:53,396 INFO: Store 309: saved 5331 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_309_03_26.csv
+2026-03-15 18:49:03,397 INFO: ====== WebDriver manager ======
+2026-03-15 18:49:03,972 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:49:04,269 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:49:04,550 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 18:54:31,229 INFO: Store 315: saved 3723 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_315_03_26.csv
+2026-03-15 18:54:41,232 INFO: ====== WebDriver manager ======
+2026-03-15 18:54:41,916 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:54:42,203 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 18:54:42,489 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:00:20,506 INFO: Store 325: saved 4084 records to G:\.shortcut-targets-by-id\10hwxlrEnEox7VqS6tvo44Q8rX59qZcSg\Drones_MV\GITHUB\ISER\MJones\FOOD_SECURITY\FOOD_PRICING\DATA\RAW_DATA\ACC_RAW\ACC_26_03\ACC_325_03_26.csv
+2026-03-15 19:00:30,507 INFO: ====== WebDriver manager ======
+2026-03-15 19:00:31,175 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:00:31,484 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:00:31,766 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:00:51,074 ERROR: Token retrieval failed for ZIP 99840: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:00:53,168 WARNING: Skipping store 330 (ZIP 99840) — token not found
+2026-03-15 19:00:53,170 INFO: ====== WebDriver manager ======
+2026-03-15 19:00:53,758 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:00:54,087 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:00:54,371 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:01:13,114 ERROR: Token retrieval failed for ZIP 99632: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:01:15,188 WARNING: Skipping store 335 (ZIP 99632) — token not found
+2026-03-15 19:01:15,190 INFO: ====== WebDriver manager ======
+2026-03-15 19:01:15,764 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:01:16,038 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:01:16,331 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:01:34,985 ERROR: Token retrieval failed for ZIP 99581: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:01:37,121 WARNING: Skipping store 345 (ZIP 99581) — token not found
+2026-03-15 19:01:37,123 INFO: ====== WebDriver manager ======
+2026-03-15 19:01:37,690 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:01:37,955 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:01:38,247 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:01:57,098 ERROR: Token retrieval failed for ZIP 99620: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:01:59,208 WARNING: Skipping store 365 (ZIP 99620) — token not found
+2026-03-15 19:01:59,209 INFO: ====== WebDriver manager ======
+2026-03-15 19:01:59,796 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:02:00,084 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:02:00,374 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:02:19,078 ERROR: Token retrieval failed for ZIP 99925: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:02:21,182 WARNING: Skipping store 366 (ZIP 99925) — token not found
+2026-03-15 19:02:21,183 INFO: ====== WebDriver manager ======
+2026-03-15 19:02:21,775 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:02:22,067 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:02:22,402 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:02:41,139 ERROR: Token retrieval failed for ZIP 99604: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:02:43,259 WARNING: Skipping store 375 (ZIP 99604) — token not found
+2026-03-15 19:02:43,261 INFO: ====== WebDriver manager ======
+2026-03-15 19:02:43,870 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:02:44,147 INFO: Get LATEST chromedriver version for google-chrome
+2026-03-15 19:02:44,459 INFO: Driver [C:\Users\cmtix\.wdm\drivers\chromedriver\win64\146.0.7680.80\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-15 19:03:03,397 ERROR: Token retrieval failed for ZIP 99752: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x38ef73+10893]
+	chromedriver!GetHandleVerifier [0x38f0a4+109c4]
+	chromedriver!(No symbol) [0x172130]
+	chromedriver!(No symbol) [0x1babba]
+	chromedriver!(No symbol) [0x1bae5b]
+	chromedriver!(No symbol) [0x1fd092]
+	chromedriver!(No symbol) [0x1ddb44]
+	chromedriver!(No symbol) [0x1fa8d4]
+	chromedriver!(No symbol) [0x1dd896]
+	chromedriver!(No symbol) [0x1b0229]
+	chromedriver!(No symbol) [0x1b0fe4]
+	chromedriver!GetHandleVerifier [0x5f20f9+273a19]
+	chromedriver!GetHandleVerifier [0x5ed703+26f023]
+	chromedriver!GetHandleVerifier [0x60b42b+28cd4b]
+	chromedriver!GetHandleVerifier [0x3a7ee8+29808]
+	chromedriver!GetHandleVerifier [0x3afc2d+3154d]
+	chromedriver!GetHandleVerifier [0x397998+192b8]
+	chromedriver!GetHandleVerifier [0x397b62+19482]
+	chromedriver!GetHandleVerifier [0x38127a+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76c25d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77e9d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77e9d7c1+231]
+	(No symbol) [(nil)]
+
+2026-03-15 19:03:05,483 WARNING: Skipping store 395 (ZIP 99752) — token not found
